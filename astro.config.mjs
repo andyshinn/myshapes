@@ -9,7 +9,7 @@ import icon from 'astro-icon';
 export default defineConfig({
   site: 'https://myshapes.andyshinn.as',
   output: 'static',
-  
+
   vite: {
     plugins: [tailwindcss()],
     envPrefix: 'PUBLIC_',
@@ -17,34 +17,6 @@ export default defineConfig({
 
   env: {
     schema: {
-      ONSHAPE_ACCESS_KEY: envField.string({
-        context: 'server',
-        access: 'secret'
-      }),
-      ONSHAPE_SECRET_KEY: envField.string({
-        context: 'server',
-        access: 'secret'
-      }),
-      ONSHAPE_BASE_URL: envField.string({
-        context: 'server',
-        access: 'public',
-        default: 'https://cad.onshape.com'
-      }),
-      AUTHOR_NAME: envField.string({
-        context: 'server',
-        access: 'public',
-        optional: true
-      }),
-      AUTHOR_EMAIL: envField.string({
-        context: 'server',
-        access: 'public',
-        optional: true
-      }),
-      AUTHOR_WEBSITE: envField.string({
-        context: 'server',
-        access: 'public',
-        optional: true
-      }),
       SITE_NAME: envField.string({
         context: 'server',
         access: 'public',
