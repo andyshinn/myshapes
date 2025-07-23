@@ -1,0 +1,76 @@
+{
+  "documentId": "78a91e01ab367e357347b1a3",
+  "title": "Voltaic Enclosures SVR / MCSBC",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/78a91e01ab367e357347b1a3",
+  "mainWorkspaceId": "12ff1cbdafd479ef4e5d08c9",
+  "createdAt": "2025-06-05T21:42:51.513Z",
+  "updatedAt": "2025-07-23T16:43:50.172Z",
+  "versions": [
+    {
+      "id": "c871d892363ef75c185c81b4",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2025-06-06T06:06:47.613Z",
+      "microversion": "4fc299d7ce8902ef3304d138"
+    },
+    {
+      "id": "5ae33d7989ffe4028e528f3d",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2025-06-07T21:15:52.384Z",
+      "microversion": "31ab3babd9882a2ba1a965a9"
+    },
+    {
+      "id": "33e95c89f88050443cdf5179",
+      "name": "V3",
+      "description": "",
+      "createdAt": "2025-06-08T21:24:07.175Z",
+      "microversion": "7dfe7e4a0a6d00fdc4e6f826"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/78a91e01ab367e357347b1a3/w/12ff1cbdafd479ef4e5d08c9/s/600x340?t=1749337045847",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/78a91e01ab367e357347b1a3/w/12ff1cbdafd479ef4e5d08c9/s/70x40?t=1749337045847",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/78a91e01ab367e357347b1a3/w/12ff1cbdafd479ef4e5d08c9/s/300x300?t=1749337045847",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/78a91e01ab367e357347b1a3/w/12ff1cbdafd479ef4e5d08c9/s/300x170?t=1749337045847",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "indexed",
+    "meshtastic"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/78a91e01ab367e357347b1a3",
+    "mainWorkspaceId": "12ff1cbdafd479ef4e5d08c9"
+  }
+}

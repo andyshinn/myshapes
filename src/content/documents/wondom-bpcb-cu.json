@@ -1,0 +1,104 @@
+{
+  "documentId": "03e29c7e84fdfb15b3298b87",
+  "title": "WONDOM BPCB-CU",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/03e29c7e84fdfb15b3298b87",
+  "mainWorkspaceId": "158ce27b4e2ab564acf50eac",
+  "createdAt": "2021-03-16T18:48:39.413Z",
+  "updatedAt": "2023-08-08T02:12:46.971Z",
+  "versions": [
+    {
+      "id": "254b8a823c66635398342af8",
+      "name": "A1",
+      "description": "",
+      "createdAt": "2021-03-16T21:06:24.682Z",
+      "microversion": "bb3967db27e30a00b60b86e9"
+    },
+    {
+      "id": "5dc2d229f8128f31cd1602e8",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2021-03-16T22:41:27.679Z",
+      "microversion": "5f5758413fc432cd35c79e47"
+    },
+    {
+      "id": "53c149ee2fdd01a28bb164dd",
+      "name": "V3",
+      "description": "",
+      "createdAt": "2021-03-20T23:44:45.306Z",
+      "microversion": "cf8d0b52c1a0c6c94df25ed0"
+    },
+    {
+      "id": "7b2b12f33c4f6fcb7af52563",
+      "name": "V4",
+      "description": "",
+      "createdAt": "2023-07-28T01:00:40.082Z",
+      "microversion": "7aa51cf44dcdb67c355b7d42"
+    },
+    {
+      "id": "3344eaab5da7ff436cc48eb5",
+      "name": "V5",
+      "description": "",
+      "createdAt": "2023-08-07T20:25:24.498Z",
+      "microversion": "858f22a25f4ae1bd3c87c2d9"
+    },
+    {
+      "id": "0502fee7d18dc13c0e81b941",
+      "name": "V6",
+      "description": "",
+      "createdAt": "2023-08-07T20:26:25.572Z",
+      "microversion": "d829a0e178d4e6f3bb467a7a"
+    },
+    {
+      "id": "0e66d280aeae8548a46c2059",
+      "name": "V7",
+      "description": "Adjusted DC jack height slightly.",
+      "createdAt": "2023-08-08T02:13:11.289Z",
+      "microversion": "3f79cbfb60c05bcfa3bf3e06"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/03e29c7e84fdfb15b3298b87/w/158ce27b4e2ab564acf50eac/s/300x170?t=1691460792819",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/03e29c7e84fdfb15b3298b87/w/158ce27b4e2ab564acf50eac/s/600x340?t=1691460792819",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/03e29c7e84fdfb15b3298b87/w/158ce27b4e2ab564acf50eac/s/70x40?t=1691460792819",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/03e29c7e84fdfb15b3298b87/w/158ce27b4e2ab564acf50eac/s/300x300?t=1691460792819",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/03e29c7e84fdfb15b3298b87",
+    "mainWorkspaceId": "158ce27b4e2ab564acf50eac"
+  }
+}

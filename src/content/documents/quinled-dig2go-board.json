@@ -1,0 +1,105 @@
+{
+  "documentId": "8258ca8cdfb8ccb78db45bc3",
+  "title": "QuinLED dig2go Board",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/8258ca8cdfb8ccb78db45bc3",
+  "mainWorkspaceId": "0373f807ed3177dab02cd8ed",
+  "createdAt": "2024-11-11T02:40:09.894Z",
+  "updatedAt": "2025-03-23T17:45:22.215Z",
+  "versions": [
+    {
+      "id": "dd0e46cc91b7e62dd4e1b5f7",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2024-11-12T02:31:09.040Z",
+      "microversion": "6bcdc2391361684761fa733b"
+    },
+    {
+      "id": "eefd11e373678399cba7fafd",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2024-11-12T05:44:20.575Z",
+      "microversion": "2332d1300d36fd76c54bedee"
+    },
+    {
+      "id": "790086c74284aedd78bf5d48",
+      "name": "V3",
+      "description": "Minor location fixes",
+      "createdAt": "2024-11-18T06:44:00.428Z",
+      "microversion": "4c753eda0e15949f8969801a"
+    },
+    {
+      "id": "b6a5247cb95a4d9c1305cb4f",
+      "name": "V4",
+      "description": "",
+      "createdAt": "2024-11-30T22:52:15.557Z",
+      "microversion": "d42e1a353334767e928a3122"
+    },
+    {
+      "id": "9d999ea0d56969d15b70f62c",
+      "name": "V5",
+      "description": "",
+      "createdAt": "2024-12-06T19:50:14.362Z",
+      "microversion": "29378bf93dda9adca5780630"
+    },
+    {
+      "id": "3daaa7065d8ba620c045d849",
+      "name": "V6",
+      "description": "",
+      "createdAt": "2024-12-08T17:34:14.609Z",
+      "microversion": "7aac9fc77670bb00a17f195e"
+    },
+    {
+      "id": "207f02089f7756d775e01318",
+      "name": "V7",
+      "description": "",
+      "createdAt": "2024-12-09T01:52:49.853Z",
+      "microversion": "14b1ce60c5c9867603027923"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/8258ca8cdfb8ccb78db45bc3/w/0373f807ed3177dab02cd8ed/s/600x340?t=1742751934778",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/8258ca8cdfb8ccb78db45bc3/w/0373f807ed3177dab02cd8ed/s/70x40?t=1742751934778",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/8258ca8cdfb8ccb78db45bc3/w/0373f807ed3177dab02cd8ed/s/300x170?t=1742751934778",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/8258ca8cdfb8ccb78db45bc3/w/0373f807ed3177dab02cd8ed/s/300x300?t=1742751934778",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed",
+    "neopixel"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/8258ca8cdfb8ccb78db45bc3",
+    "mainWorkspaceId": "0373f807ed3177dab02cd8ed"
+  }
+}

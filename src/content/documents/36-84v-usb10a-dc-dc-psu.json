@@ -1,0 +1,62 @@
+{
+  "documentId": "2ac588c95a671bdeceb69061",
+  "title": "36-84V-USB1.0A DC-DC PSU",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/2ac588c95a671bdeceb69061",
+  "mainWorkspaceId": "d9998a859e1fd3c9129fc8b1",
+  "createdAt": "2024-07-16T00:12:09.505Z",
+  "updatedAt": "2024-11-23T21:08:43.843Z",
+  "versions": [
+    {
+      "id": "f654fbdbdeffd1cb0e04369f",
+      "name": "V1",
+      "description": "Initial outline",
+      "createdAt": "2024-07-16T01:08:09.914Z",
+      "microversion": "8ebed5f219b80a5d9e0e52c4"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/2ac588c95a671bdeceb69061/w/d9998a859e1fd3c9129fc8b1/s/600x340?t=1721092082763",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/2ac588c95a671bdeceb69061/w/d9998a859e1fd3c9129fc8b1/s/70x40?t=1721092082763",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/2ac588c95a671bdeceb69061/w/d9998a859e1fd3c9129fc8b1/s/300x170?t=1721092082763",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/2ac588c95a671bdeceb69061/w/d9998a859e1fd3c9129fc8b1/s/300x300?t=1721092082763",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/2ac588c95a671bdeceb69061",
+    "mainWorkspaceId": "d9998a859e1fd3c9129fc8b1"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "documentId": "bfd20f4095c77519484c41ad",
+  "title": "Andy's Ikoka Case",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/bfd20f4095c77519484c41ad",
+  "mainWorkspaceId": "c4d9bba3febdaeaa7f387b6c",
+  "createdAt": "2025-04-14T01:31:50.141Z",
+  "updatedAt": "2025-06-13T16:38:19.650Z",
+  "versions": [
+    {
+      "id": "8287c3e4eda8917030c2041c",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2025-04-27T16:06:06.373Z",
+      "microversion": "ab77b551184c48208b21b527"
+    },
+    {
+      "id": "3e73864279fc5ce20395a74b",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2025-04-28T21:15:55.066Z",
+      "microversion": "971c9c02f94d3d41f3c972f6"
+    },
+    {
+      "id": "aafdc29e93e92362349b56fa",
+      "name": "V3",
+      "description": "",
+      "createdAt": "2025-05-04T19:04:10.708Z",
+      "microversion": "7f07049cbe50279d6f578c1b"
+    },
+    {
+      "id": "fee75639f19946391ec43857",
+      "name": "V4",
+      "description": "",
+      "createdAt": "2025-06-13T16:38:18.070Z",
+      "microversion": "5aea9e6aa2d0cc1e3e248306"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/bfd20f4095c77519484c41ad/w/c4d9bba3febdaeaa7f387b6c/s/300x170?t=1749832704461",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/bfd20f4095c77519484c41ad/w/c4d9bba3febdaeaa7f387b6c/s/600x340?t=1749832704461",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/bfd20f4095c77519484c41ad/w/c4d9bba3febdaeaa7f387b6c/s/70x40?t=1749832704461",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/bfd20f4095c77519484c41ad/w/c4d9bba3febdaeaa7f387b6c/s/300x300?t=1749832704461",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "3dprintable",
+    "indexed",
+    "meshtastic"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/bfd20f4095c77519484c41ad",
+    "mainWorkspaceId": "c4d9bba3febdaeaa7f387b6c"
+  }
+}

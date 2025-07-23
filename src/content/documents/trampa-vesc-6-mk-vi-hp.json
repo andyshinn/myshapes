@@ -1,0 +1,63 @@
+{
+  "documentId": "1ce56ed57b8acdb7666f10a4",
+  "title": "Trampa VESC 6 MK VI HP",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/1ce56ed57b8acdb7666f10a4",
+  "mainWorkspaceId": "c9e328910ba668eaea2c4381",
+  "createdAt": "2024-07-31T16:06:15.693Z",
+  "updatedAt": "2024-11-23T21:10:58.948Z",
+  "versions": [
+    {
+      "id": "e54cb1ff3ed933ee1ac52b70",
+      "name": "V1",
+      "description": "Initial body and external parts",
+      "createdAt": "2024-07-31T17:47:12.420Z",
+      "microversion": "63381b52321cd9d5df37d7bc"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/1ce56ed57b8acdb7666f10a4/w/c9e328910ba668eaea2c4381/s/600x340?t=1722448087972",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/1ce56ed57b8acdb7666f10a4/w/c9e328910ba668eaea2c4381/s/300x300?t=1722448087972",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/1ce56ed57b8acdb7666f10a4/w/c9e328910ba668eaea2c4381/s/70x40?t=1722448087972",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/1ce56ed57b8acdb7666f10a4/w/c9e328910ba668eaea2c4381/s/300x170?t=1722448087972",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed",
+    "scooter"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/1ce56ed57b8acdb7666f10a4",
+    "mainWorkspaceId": "c9e328910ba668eaea2c4381"
+  }
+}

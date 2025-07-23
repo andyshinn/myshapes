@@ -1,0 +1,62 @@
+{
+  "documentId": "61e5952d81df14de6f7bea09",
+  "title": "Adafruit INA3221 Breakout 6062",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/61e5952d81df14de6f7bea09",
+  "mainWorkspaceId": "870a94fab556d9d887c01c01",
+  "createdAt": "2024-11-22T23:00:47.531Z",
+  "updatedAt": "2025-06-07T21:03:41.174Z",
+  "versions": [
+    {
+      "id": "800f591a598b7e1fdb573b46",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2024-11-22T23:45:27.494Z",
+      "microversion": "c981f55a98193271ec023340"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/61e5952d81df14de6f7bea09/w/870a94fab556d9d887c01c01/s/600x340?t=1732473545314",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/61e5952d81df14de6f7bea09/w/870a94fab556d9d887c01c01/s/300x170?t=1732473545314",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/61e5952d81df14de6f7bea09/w/870a94fab556d9d887c01c01/s/70x40?t=1732473545314",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/61e5952d81df14de6f7bea09/w/870a94fab556d9d887c01c01/s/300x300?t=1732473545314",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/61e5952d81df14de6f7bea09",
+    "mainWorkspaceId": "870a94fab556d9d887c01c01"
+  }
+}

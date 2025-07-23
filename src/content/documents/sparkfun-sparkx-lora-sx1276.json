@@ -1,0 +1,63 @@
+{
+  "documentId": "dc4aeb73fa5d544a9d892041",
+  "title": "Sparkfun SparkX LoRa SX1276",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/dc4aeb73fa5d544a9d892041",
+  "mainWorkspaceId": "45dddd7210a47ecdccd2db73",
+  "createdAt": "2024-11-10T02:57:26.122Z",
+  "updatedAt": "2025-04-14T01:09:37.140Z",
+  "versions": [
+    {
+      "id": "18aabdbd47aedbf2a8010139",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2024-11-10T04:02:03.072Z",
+      "microversion": "d3869a7b7db4c78f6195c3ec"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/dc4aeb73fa5d544a9d892041/w/45dddd7210a47ecdccd2db73/s/600x340?t=1744593024302",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/dc4aeb73fa5d544a9d892041/w/45dddd7210a47ecdccd2db73/s/70x40?t=1744593024302",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/dc4aeb73fa5d544a9d892041/w/45dddd7210a47ecdccd2db73/s/300x300?t=1744593024302",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/dc4aeb73fa5d544a9d892041/w/45dddd7210a47ecdccd2db73/s/300x170?t=1744593024302",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed",
+    "meshtastic"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/dc4aeb73fa5d544a9d892041",
+    "mainWorkspaceId": "45dddd7210a47ecdccd2db73"
+  }
+}

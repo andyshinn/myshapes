@@ -1,0 +1,77 @@
+{
+  "documentId": "ad75364be5cc0742ea0bb065",
+  "title": "Meshtastic LoRa Cavity Filter",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/ad75364be5cc0742ea0bb065",
+  "mainWorkspaceId": "380ad6da6d27b7e9a574888e",
+  "createdAt": "2024-11-04T21:55:56.127Z",
+  "updatedAt": "2025-06-25T17:53:08.955Z",
+  "versions": [
+    {
+      "id": "0a09458df443c48b12c0b757",
+      "name": "V1",
+      "description": "Basic cavity filter body without SMA or tuning screws",
+      "createdAt": "2024-11-05T02:11:39.210Z",
+      "microversion": "fef360dec8aec26354ffb50d"
+    },
+    {
+      "id": "2506881cc2bd8fcf33f17150",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2024-11-05T03:14:37.928Z",
+      "microversion": "0285ebba917cb13bba03ab4d"
+    },
+    {
+      "id": "4dd7bdeafb809047a12ef48f",
+      "name": "V3",
+      "description": "",
+      "createdAt": "2024-11-13T04:18:31.569Z",
+      "microversion": "8307d640e196a236d4d7a358"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/ad75364be5cc0742ea0bb065/w/380ad6da6d27b7e9a574888e/s/600x340?t=1731471700704",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/ad75364be5cc0742ea0bb065/w/380ad6da6d27b7e9a574888e/s/300x300?t=1731471700704",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/ad75364be5cc0742ea0bb065/w/380ad6da6d27b7e9a574888e/s/300x170?t=1731471700704",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/ad75364be5cc0742ea0bb065/w/380ad6da6d27b7e9a574888e/s/70x40?t=1731471700704",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed",
+    "meshtastic"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/ad75364be5cc0742ea0bb065",
+    "mainWorkspaceId": "380ad6da6d27b7e9a574888e"
+  }
+}

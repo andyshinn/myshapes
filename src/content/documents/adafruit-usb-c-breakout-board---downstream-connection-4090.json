@@ -1,0 +1,84 @@
+{
+  "documentId": "b1811c9eb4a860d0f733e630",
+  "title": "Adafruit USB-C Breakout Board - Downstream Connection (4090)",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/b1811c9eb4a860d0f733e630",
+  "mainWorkspaceId": "390f8152ccd7ba65890f11ed",
+  "createdAt": "2024-04-09T22:30:16.284Z",
+  "updatedAt": "2024-11-23T21:11:15.041Z",
+  "versions": [
+    {
+      "id": "1a8867c2beee4ab3ea151278",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2024-04-10T00:56:17.509Z",
+      "microversion": "e550bea49230174afff7bd65"
+    },
+    {
+      "id": "cbccc6199bd548c959c07719",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2024-04-10T01:01:13.784Z",
+      "microversion": "18b0d38f1703c93c20c32a96"
+    },
+    {
+      "id": "94562927b5884595dcc23d16",
+      "name": "V3",
+      "description": "",
+      "createdAt": "2024-04-10T01:09:24.631Z",
+      "microversion": "650232dd8aff03f5fcf4aeb2"
+    },
+    {
+      "id": "3ba94fa3fda11e31eec3db7f",
+      "name": "V4",
+      "description": "",
+      "createdAt": "2024-04-10T01:10:00.016Z",
+      "microversion": "650232dd8aff03f5fcf4aeb2"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/b1811c9eb4a860d0f733e630/w/390f8152ccd7ba65890f11ed/s/300x300?t=1712712070767",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/b1811c9eb4a860d0f733e630/w/390f8152ccd7ba65890f11ed/s/70x40?t=1712712070767",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/b1811c9eb4a860d0f733e630/w/390f8152ccd7ba65890f11ed/s/300x170?t=1712712070767",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/b1811c9eb4a860d0f733e630/w/390f8152ccd7ba65890f11ed/s/600x340?t=1712712070767",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "adafruit",
+    "external",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/b1811c9eb4a860d0f733e630",
+    "mainWorkspaceId": "390f8152ccd7ba65890f11ed"
+  }
+}

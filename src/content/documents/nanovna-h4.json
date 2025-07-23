@@ -1,0 +1,77 @@
+{
+  "documentId": "0387495b00f5594b463dceff",
+  "title": "NanoVNA-H4",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/0387495b00f5594b463dceff",
+  "mainWorkspaceId": "cf239432ec3e8f9dc3aa9e37",
+  "createdAt": "2024-05-25T17:40:50.856Z",
+  "updatedAt": "2024-12-02T18:54:03.298Z",
+  "versions": [
+    {
+      "id": "34c8354532061c41968ab741",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2024-05-25T17:41:12.638Z",
+      "microversion": "681fae99b3ab99ef64f4f14e"
+    },
+    {
+      "id": "03c980d9506ff328dbd3ab15",
+      "name": "V2",
+      "description": "Initial decals version",
+      "createdAt": "2024-05-25T18:46:19.665Z",
+      "microversion": "6bb5ea823cd893c953b8cf79"
+    },
+    {
+      "id": "fdb1ce7a1d509d619bf73e5b",
+      "name": "V3",
+      "description": "Added case port openings, USB, lanyard hole, SMA alignment.",
+      "createdAt": "2024-05-26T03:08:08.158Z",
+      "microversion": "a26f79751ffa6061d36b03c4"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/0387495b00f5594b463dceff/w/cf239432ec3e8f9dc3aa9e37/s/70x40?t=1716693189990",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/0387495b00f5594b463dceff/w/cf239432ec3e8f9dc3aa9e37/s/300x300?t=1716693189990",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/0387495b00f5594b463dceff/w/cf239432ec3e8f9dc3aa9e37/s/600x340?t=1716693189990",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/0387495b00f5594b463dceff/w/cf239432ec3e8f9dc3aa9e37/s/300x170?t=1716693189990",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed",
+    "meshtastic"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/0387495b00f5594b463dceff",
+    "mainWorkspaceId": "cf239432ec3e8f9dc3aa9e37"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "myshapes-generator",
+  "version": "0.0.1",
+  "type": "module",
+  "bin": {
+    "myshapes-gen": "./bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "@myriaddreamin/typst-ts-node-compiler": "^0.6.1-rc1",
+    "dotenv": "^16.3.0",
+    "@myshapes/onshape-client": "file:../packages/onshape-client",
+    "@myshapes/shared-types": "file:../packages/shared-types"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "tsx": "^4.0.0",
+    "@types/node": "^20.0.0"
+  }
+}

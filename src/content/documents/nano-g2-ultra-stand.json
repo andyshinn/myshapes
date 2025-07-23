@@ -1,0 +1,70 @@
+{
+  "documentId": "a0731b8a7c8995a66ce09679",
+  "title": "Nano G2 Ultra Stand",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/a0731b8a7c8995a66ce09679",
+  "mainWorkspaceId": "27f627124424a6c86ef34352",
+  "createdAt": "2025-02-04T03:55:03.700Z",
+  "updatedAt": "2025-02-19T21:54:57.571Z",
+  "versions": [
+    {
+      "id": "0fa982a337c86a6a3f81e23b",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2025-02-07T21:10:20.787Z",
+      "microversion": "b527062cc180a315eaf3fec3"
+    },
+    {
+      "id": "a77185a10d5648f2f66743b0",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2025-02-07T23:12:43.789Z",
+      "microversion": "b2e5df8aed09cd75acae0403"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/a0731b8a7c8995a66ce09679/w/27f627124424a6c86ef34352/s/300x300?t=1740002387678",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/a0731b8a7c8995a66ce09679/w/27f627124424a6c86ef34352/s/70x40?t=1740002387678",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/a0731b8a7c8995a66ce09679/w/27f627124424a6c86ef34352/s/600x340?t=1740002387678",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/a0731b8a7c8995a66ce09679/w/27f627124424a6c86ef34352/s/300x170?t=1740002387678",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "3dprintable",
+    "indexed",
+    "meshtastic"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/a0731b8a7c8995a66ce09679",
+    "mainWorkspaceId": "27f627124424a6c86ef34352"
+  }
+}

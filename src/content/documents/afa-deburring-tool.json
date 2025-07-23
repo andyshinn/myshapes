@@ -1,0 +1,69 @@
+{
+  "documentId": "2039f52791c6e4226c3d49ee",
+  "title": "AFA Deburring Tool",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/2039f52791c6e4226c3d49ee",
+  "mainWorkspaceId": "099ad3569e93670014606d13",
+  "createdAt": "2025-02-18T05:11:02.429Z",
+  "updatedAt": "2025-02-23T04:11:45.113Z",
+  "versions": [
+    {
+      "id": "97efaf854664c3bda5706078",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2025-02-19T00:44:17.232Z",
+      "microversion": "417c3c30a8868e1e0e1b466f"
+    },
+    {
+      "id": "55ba42219f6de141d1dd2696",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2025-02-21T02:09:46.641Z",
+      "microversion": "5f273de1606e9974458d366b"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/2039f52791c6e4226c3d49ee/w/099ad3569e93670014606d13/s/300x300?t=1740284220759",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/2039f52791c6e4226c3d49ee/w/099ad3569e93670014606d13/s/300x170?t=1740284220759",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/2039f52791c6e4226c3d49ee/w/099ad3569e93670014606d13/s/600x340?t=1740284220759",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/2039f52791c6e4226c3d49ee/w/099ad3569e93670014606d13/s/70x40?t=1740284220759",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "3dprintable",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/2039f52791c6e4226c3d49ee",
+    "mainWorkspaceId": "099ad3569e93670014606d13"
+  }
+}

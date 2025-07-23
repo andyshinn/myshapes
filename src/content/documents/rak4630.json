@@ -1,0 +1,70 @@
+{
+  "documentId": "6ad16d093c0c3a5a88646411",
+  "title": "RAK4630",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/6ad16d093c0c3a5a88646411",
+  "mainWorkspaceId": "8a8e172a4efcb3b5b31d959c",
+  "createdAt": "2025-05-29T22:35:02.486Z",
+  "updatedAt": "2025-06-27T23:51:12.150Z",
+  "versions": [
+    {
+      "id": "fb6231a89d6e9089bfa4abba",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2025-06-27T22:07:04.092Z",
+      "microversion": "ac678d82f37f45f55f227b85"
+    },
+    {
+      "id": "1583757fe149ec6f8a917821",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2025-06-27T23:52:29.962Z",
+      "microversion": "6ced951071a72cbadac457a7"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/6ad16d093c0c3a5a88646411/w/8a8e172a4efcb3b5b31d959c/s/300x170?t=1751068353489",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/6ad16d093c0c3a5a88646411/w/8a8e172a4efcb3b5b31d959c/s/70x40?t=1751068353489",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/6ad16d093c0c3a5a88646411/w/8a8e172a4efcb3b5b31d959c/s/300x300?t=1751068353489",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/6ad16d093c0c3a5a88646411/w/8a8e172a4efcb3b5b31d959c/s/600x340?t=1751068353489",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed",
+    "meshtastic"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/6ad16d093c0c3a5a88646411",
+    "mainWorkspaceId": "8a8e172a4efcb3b5b31d959c"
+  }
+}

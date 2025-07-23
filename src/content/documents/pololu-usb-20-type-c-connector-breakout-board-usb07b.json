@@ -1,0 +1,69 @@
+{
+  "documentId": "c730c42da7739cdc22c5361d",
+  "title": "Pololu USB 2.0 Type-C Connector Breakout Board (usb07b)",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/c730c42da7739cdc22c5361d",
+  "mainWorkspaceId": "4c7d4cff5ddd8446e5118d74",
+  "createdAt": "2025-04-18T19:22:48.739Z",
+  "updatedAt": "2025-07-23T21:22:56.101Z",
+  "versions": [
+    {
+      "id": "dd76ad29cbb21985dbd22e40",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2025-04-18T20:19:17.233Z",
+      "microversion": "77fa58451b00a2da2678de06"
+    },
+    {
+      "id": "1589e14c79d68faf045c5c03",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2025-04-18T21:35:08.744Z",
+      "microversion": "5a97aba07bc570de0c21fd35"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/c730c42da7739cdc22c5361d/w/4c7d4cff5ddd8446e5118d74/s/300x300?t=1753305780603",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/c730c42da7739cdc22c5361d/w/4c7d4cff5ddd8446e5118d74/s/70x40?t=1753305780603",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/c730c42da7739cdc22c5361d/w/4c7d4cff5ddd8446e5118d74/s/300x170?t=1753305780603",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/c730c42da7739cdc22c5361d/w/4c7d4cff5ddd8446e5118d74/s/600x340?t=1753305780603",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/c730c42da7739cdc22c5361d",
+    "mainWorkspaceId": "4c7d4cff5ddd8446e5118d74"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "documentId": "7d35a114fd812b82e2aef181",
+  "title": "LiFePO4wered/Solar1 LiFePO4 Solar Board",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/7d35a114fd812b82e2aef181",
+  "mainWorkspaceId": "fffca2fd46b3624ae709beb2",
+  "createdAt": "2024-12-05T00:32:00.327Z",
+  "updatedAt": "2024-12-05T19:18:39.845Z",
+  "versions": [],
+  "thumbnails": [
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/7d35a114fd812b82e2aef181/w/fffca2fd46b3624ae709beb2/s/300x300?t=1733362908356",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/7d35a114fd812b82e2aef181/w/fffca2fd46b3624ae709beb2/s/70x40?t=1733362908356",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/7d35a114fd812b82e2aef181/w/fffca2fd46b3624ae709beb2/s/600x340?t=1733362908356",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/7d35a114fd812b82e2aef181/w/fffca2fd46b3624ae709beb2/s/300x170?t=1733362908356",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/7d35a114fd812b82e2aef181",
+    "mainWorkspaceId": "fffca2fd46b3624ae709beb2"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "documentId": "bc0c9f24cad0f6fa40796fb6",
+  "title": "Pololu Step-Up U3V70x",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/bc0c9f24cad0f6fa40796fb6",
+  "mainWorkspaceId": "ba766b2913d741312f66951e",
+  "createdAt": "2024-06-04T02:56:15.814Z",
+  "updatedAt": "2024-11-23T21:09:19.924Z",
+  "versions": [
+    {
+      "id": "5abfec60aa358896e6489305",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2024-06-04T03:13:02.027Z",
+      "microversion": "81f481fc1ce3b742ec6f7246"
+    },
+    {
+      "id": "2d222835997f670afa8e1544",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2024-06-04T04:47:28.456Z",
+      "microversion": "eb6647f8c3e90ad26388aa68"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/bc0c9f24cad0f6fa40796fb6/w/ba766b2913d741312f66951e/s/300x170?t=1717476258330",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/bc0c9f24cad0f6fa40796fb6/w/ba766b2913d741312f66951e/s/600x340?t=1717476258330",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/bc0c9f24cad0f6fa40796fb6/w/ba766b2913d741312f66951e/s/70x40?t=1717476258330",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/bc0c9f24cad0f6fa40796fb6/w/ba766b2913d741312f66951e/s/300x300?t=1717476258330",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/bc0c9f24cad0f6fa40796fb6",
+    "mainWorkspaceId": "ba766b2913d741312f66951e"
+  }
+}

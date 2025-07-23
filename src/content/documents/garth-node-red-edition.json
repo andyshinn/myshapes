@@ -1,0 +1,54 @@
+{
+  "documentId": "396b1571d10a8eaa56053443",
+  "title": "Garth Node Red Edition",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/396b1571d10a8eaa56053443",
+  "mainWorkspaceId": "a5e9c1a515610fafd17216da",
+  "createdAt": "2024-11-21T22:19:33.712Z",
+  "updatedAt": "2025-04-13T01:25:22.056Z",
+  "versions": [],
+  "thumbnails": [
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/396b1571d10a8eaa56053443/w/a5e9c1a515610fafd17216da/s/300x300?t=1744509851262",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/396b1571d10a8eaa56053443/w/a5e9c1a515610fafd17216da/s/70x40?t=1744509851262",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/396b1571d10a8eaa56053443/w/a5e9c1a515610fafd17216da/s/600x340?t=1744509851262",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/396b1571d10a8eaa56053443/w/a5e9c1a515610fafd17216da/s/300x170?t=1744509851262",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "indexed",
+    "meshtastic"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/396b1571d10a8eaa56053443",
+    "mainWorkspaceId": "a5e9c1a515610fafd17216da"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "documentId": "e77e247ec53d3fcd044f262e",
+  "title": "Adafruit 1S3P 18650 Battery Pack (PKCell 6600mAh)",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/e77e247ec53d3fcd044f262e",
+  "mainWorkspaceId": "57d66a4bc7ceb4807105dc71",
+  "createdAt": "2024-09-14T04:37:11.818Z",
+  "updatedAt": "2025-06-07T20:56:34.337Z",
+  "versions": [
+    {
+      "id": "c40a22b375bfabd69f99c767",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2024-09-14T04:45:10.401Z",
+      "microversion": "cd687f3ed93dcdd1967383a0"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/e77e247ec53d3fcd044f262e/w/57d66a4bc7ceb4807105dc71/s/300x170?t=1726289114180",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/e77e247ec53d3fcd044f262e/w/57d66a4bc7ceb4807105dc71/s/300x300?t=1726289114180",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/e77e247ec53d3fcd044f262e/w/57d66a4bc7ceb4807105dc71/s/70x40?t=1726289114180",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/e77e247ec53d3fcd044f262e/w/57d66a4bc7ceb4807105dc71/s/600x340?t=1726289114180",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "adafruit",
+    "battery",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/e77e247ec53d3fcd044f262e",
+    "mainWorkspaceId": "57d66a4bc7ceb4807105dc71"
+  }
+}

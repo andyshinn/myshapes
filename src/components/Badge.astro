@@ -1,0 +1,41 @@
+---
+export interface Props {
+  label: string;
+  size?: 'sm' | 'md' | 'lg';
+}
+
+const { label, size = 'sm' } = Astro.props;
+
+// Available DaisyUI badge color variants
+const colorVariants = [
+  'badge-primary',
+  'badge-secondary', 
+  'badge-accent',
+  'badge-info',
+  'badge-success',
+  'badge-warning',
+  'badge-error'
+];
+
+// Simple hash function to consistently map labels to colors
+function hashString(str: string): number {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    const char = str.charCodeAt(i);
+    hash = ((hash << 5) - hash) + char;
+    hash = hash & hash; // Convert to 32-bit integer
+  }
+  return Math.abs(hash);
+}
+
+// Get consistent color for this label
+const colorIndex = hashString(label) % colorVariants.length;
+const colorClass = colorVariants[colorIndex];
+
+// Size class
+const sizeClass = size === 'sm' ? 'badge-sm' : size === 'lg' ? 'badge-lg' : '';
+---
+
+<div class={`badge badge-outline ${colorClass} ${sizeClass}`.trim()}>
+  {label}
+</div>

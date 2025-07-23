@@ -1,0 +1,139 @@
+{
+  "documentId": "ac732860c2834480eda78004",
+  "title": "Ikoka Stick",
+  "description": "This is a model of the Ikoka Stick Meshtastic board by ndoo. See https://github.com/ndoo/ikoka-stick-meshtastic-device for more information.",
+  "onshapeUrl": "https://cad.onshape.com/documents/ac732860c2834480eda78004",
+  "mainWorkspaceId": "6c9003fecef8965f0ac16390",
+  "createdAt": "2025-07-12T20:20:51.170Z",
+  "updatedAt": "2025-07-23T06:29:11.501Z",
+  "versions": [
+    {
+      "id": "0f3d94f845106bed840f1cde",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2025-07-13T06:56:28.331Z",
+      "microversion": "d803c62b9cd829d3aca25347"
+    },
+    {
+      "id": "e1084a085e189a7ecca0f4dd",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2025-07-13T07:00:56.125Z",
+      "microversion": "ffb75ce1a6d1c343078279f2"
+    },
+    {
+      "id": "8a141bbcb0223bc0d8bb7ccf",
+      "name": "V3",
+      "description": "",
+      "createdAt": "2025-07-13T07:02:07.015Z",
+      "microversion": "642ff72a57ebca3f25f917b4"
+    },
+    {
+      "id": "53896a59516ff33ec0b1632e",
+      "name": "V4",
+      "description": "",
+      "createdAt": "2025-07-20T23:19:55.312Z",
+      "microversion": "c7d93912a72550d83871723b"
+    },
+    {
+      "id": "d530807cd5c711950db6cfca",
+      "name": "V5",
+      "description": "",
+      "createdAt": "2025-07-20T23:24:06.696Z",
+      "microversion": "58bd01ebf4db08ad61914ef0"
+    },
+    {
+      "id": "8962ff477e0f6caa0f514ce9",
+      "name": "V6",
+      "description": "",
+      "createdAt": "2025-07-21T20:40:32.292Z",
+      "microversion": "d6755d5d80f17b6380300f5e"
+    },
+    {
+      "id": "d5e60d801f1dc8fb140f6db9",
+      "name": "V7",
+      "description": "",
+      "createdAt": "2025-07-21T20:52:35.419Z",
+      "microversion": "62b65691ce2cf0a2b5ce5aa7"
+    },
+    {
+      "id": "7ffa692a997dc1de6b5333a3",
+      "name": "V8",
+      "description": "",
+      "createdAt": "2025-07-21T22:22:20.010Z",
+      "microversion": "c50474a164418722a18f16a0"
+    },
+    {
+      "id": "149f141a868116e6098f2223",
+      "name": "V9",
+      "description": "",
+      "createdAt": "2025-07-23T03:38:23.976Z",
+      "microversion": "39bd11441b004d01005c7cf4"
+    },
+    {
+      "id": "1c28e9e7c32790bf764233e9",
+      "name": "V10",
+      "description": "",
+      "createdAt": "2025-07-23T03:47:51.636Z",
+      "microversion": "a430c0dd1009d5da0dd1b0d5"
+    },
+    {
+      "id": "b05f4630d8c4451d99de3be6",
+      "name": "V11",
+      "description": "",
+      "createdAt": "2025-07-23T03:48:33.318Z",
+      "microversion": "5a865c4384c49a5a8a98cd01"
+    },
+    {
+      "id": "069dfd05ab98492dcf3a915f",
+      "name": "V12",
+      "description": "",
+      "createdAt": "2025-07-23T05:52:18.806Z",
+      "microversion": "a96f1a7d5f313b3f00585a3a"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/ac732860c2834480eda78004/w/6c9003fecef8965f0ac16390/s/300x300?t=1753289061117",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/ac732860c2834480eda78004/w/6c9003fecef8965f0ac16390/s/300x170?t=1753289061117",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/ac732860c2834480eda78004/w/6c9003fecef8965f0ac16390/s/600x340?t=1753289061117",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/ac732860c2834480eda78004/w/6c9003fecef8965f0ac16390/s/70x40?t=1753289061117",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "indexed",
+    "meshtastic"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/ac732860c2834480eda78004",
+    "mainWorkspaceId": "6c9003fecef8965f0ac16390"
+  }
+}

@@ -1,0 +1,68 @@
+---
+import '../styles/global.css';
+import { Icon } from 'astro-icon/components';
+import { SITE_NAME } from 'astro:env/server';
+
+export interface Props {
+  title: string;
+  description?: string;
+  showBackButton?: boolean;
+}
+
+const { title, description = "A collection of CAD models and technical documentation", showBackButton = false } = Astro.props;
+---
+
+<html lang="en" data-theme="myshapes">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+		<meta name="description" content={description} />
+	</head>
+	<body class="bg-base-200">
+		<!-- Header -->
+		<header class="navbar bg-base-200 shadow-lg">
+			<div class="container mx-auto">
+				<div class="navbar-start">
+					<a href="/" class="btn btn-ghost text-xl font-bold">{SITE_NAME}</a>
+				</div>
+				<div class="navbar-end">
+					{showBackButton ? (
+						<a href="/" class="btn btn-ghost btn-sm">← Back to Gallery</a>
+					) : (
+						<slot name="header-end" />
+					)}
+				</div>
+			</div>
+		</header>
+
+		<!-- Main Content -->
+		<main class="container mx-auto px-4 py-8">
+			<slot />
+		</main>
+
+		<!-- Footer -->
+		<footer class="footer footer-center p-6 bg-base-300 text-base-content mt-12">
+			<div class="grid grid-flow-col gap-4">
+				<a href="https://github.com/andyshinn" class="link hover:text-primary" target="_blank" rel="noopener" aria-label="GitHub link">
+					<Icon name="simple-icons:github" class="w-6 h-6" />
+				</a>
+				<a href="https://discordapp.com/users/andyshinn" class="link hover:text-primary" target="_blank" rel="noopener" aria-label="Discord link">
+					<Icon name="simple-icons:discord" class="w-6 h-6"  />
+				</a>
+				<a href="https://www.youtube.com/@andyshinn" class="link hover:text-primary" target="_blank" rel="noopener" aria-label="YouTube link">
+					<Icon name="simple-icons:youtube" class="w-6 h-6" />
+				</a>
+				<a href="https://andyshinn.as" class="link hover:text-primary" target="_blank" rel="noopener" aria-label="Website link">
+					<Icon name="mdi:web" class="w-6 h-6" />
+				</a>
+			</div>
+			<div>
+				<p class="text-sm">Built by <a href="https://andyshinn.as" class="link hover:text-primary" target="_blank" rel="noopener">Andy Shinn</a></p>
+				<p class="text-xs opacity-60">Powered by <a href="https://astro.build" class="link hover:text-primary" target="_blank" rel="noopener">Astro</a> and <a href="https://daisyui.com" class="link hover:text-primary" target="_blank" rel="noopener">DaisyUI</a></p>
+			</div>
+		</footer>
+	</body>
+</html>

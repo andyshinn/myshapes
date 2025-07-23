@@ -1,5 +1,57 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
+import { defineConfig, envField } from 'astro/config';
+
+import tailwindcss from '@tailwindcss/vite';
+
+import icon from 'astro-icon';
 
 // https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  site: 'https://myshapes.andyshinn.as',
+  output: 'static',
+  
+  vite: {
+    plugins: [tailwindcss()],
+    envPrefix: 'PUBLIC_',
+  },
+
+  env: {
+    schema: {
+      ONSHAPE_ACCESS_KEY: envField.string({
+        context: 'server',
+        access: 'secret'
+      }),
+      ONSHAPE_SECRET_KEY: envField.string({
+        context: 'server',
+        access: 'secret'
+      }),
+      ONSHAPE_BASE_URL: envField.string({
+        context: 'server',
+        access: 'public',
+        default: 'https://cad.onshape.com'
+      }),
+      AUTHOR_NAME: envField.string({
+        context: 'server',
+        access: 'public',
+        optional: true
+      }),
+      AUTHOR_EMAIL: envField.string({
+        context: 'server',
+        access: 'public',
+        optional: true
+      }),
+      AUTHOR_WEBSITE: envField.string({
+        context: 'server',
+        access: 'public',
+        optional: true
+      }),
+      SITE_NAME: envField.string({
+        context: 'server',
+        access: 'public',
+        default: 'Andy\'s Onshape Models'
+      })
+    }
+  },
+
+  integrations: [icon()]
+});

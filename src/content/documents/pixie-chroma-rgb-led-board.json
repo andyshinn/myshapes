@@ -1,0 +1,70 @@
+{
+  "documentId": "8a0796f2ef9e7d290107248f",
+  "title": "Pixie Chroma RGB LED Board",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/8a0796f2ef9e7d290107248f",
+  "mainWorkspaceId": "463543323948202f36ccfc00",
+  "createdAt": "2024-12-13T04:22:46.700Z",
+  "updatedAt": "2025-01-02T21:44:35.051Z",
+  "versions": [
+    {
+      "id": "778aa2140ae8fe553fa44098",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2024-12-13T05:50:28.578Z",
+      "microversion": "bc21c94f512c941d18c4eba8"
+    },
+    {
+      "id": "60295f9f6886f850e75a3490",
+      "name": "V2",
+      "description": "More accurate headers",
+      "createdAt": "2025-01-02T21:47:47.550Z",
+      "microversion": "75c28aa1e808bd808ac79391"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/8a0796f2ef9e7d290107248f/w/463543323948202f36ccfc00/s/70x40?t=1735854471072",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/8a0796f2ef9e7d290107248f/w/463543323948202f36ccfc00/s/300x170?t=1735854471072",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/8a0796f2ef9e7d290107248f/w/463543323948202f36ccfc00/s/300x300?t=1735854471072",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/8a0796f2ef9e7d290107248f/w/463543323948202f36ccfc00/s/600x340?t=1735854471072",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed",
+    "neopixel"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/8a0796f2ef9e7d290107248f",
+    "mainWorkspaceId": "463543323948202f36ccfc00"
+  }
+}

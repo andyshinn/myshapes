@@ -1,0 +1,84 @@
+{
+  "documentId": "a4f8f9a5d15041a9b6bf901e",
+  "title": "Antennas",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/a4f8f9a5d15041a9b6bf901e",
+  "mainWorkspaceId": "c139d79960ccd33b3c272874",
+  "createdAt": "2025-04-11T02:33:23.220Z",
+  "updatedAt": "2025-04-14T22:00:02.828Z",
+  "versions": [
+    {
+      "id": "8f5cea0e76eb79d5bdd28e3f",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2025-04-11T17:41:34.138Z",
+      "microversion": "a1dfccf5b42998064d2e3560"
+    },
+    {
+      "id": "c9fc6a8746c66d179533b722",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2025-04-11T19:30:35.197Z",
+      "microversion": "f6c74e75044ec3e914b09bc5"
+    },
+    {
+      "id": "d09574080968488df36b8054",
+      "name": "V3",
+      "description": "",
+      "createdAt": "2025-04-11T22:08:18.323Z",
+      "microversion": "f9be17cd7a3ffddbb070ee6e"
+    },
+    {
+      "id": "eb8ad77e2fabb85d14bfbe4c",
+      "name": "V4",
+      "description": "",
+      "createdAt": "2025-04-14T22:00:02.557Z",
+      "microversion": "eb8fc46c30b1b8edcc30481f"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/a4f8f9a5d15041a9b6bf901e/w/c139d79960ccd33b3c272874/s/70x40?t=1744409459058",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/a4f8f9a5d15041a9b6bf901e/w/c139d79960ccd33b3c272874/s/300x170?t=1744409459058",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/a4f8f9a5d15041a9b6bf901e/w/c139d79960ccd33b3c272874/s/300x300?t=1744409459058",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/a4f8f9a5d15041a9b6bf901e/w/c139d79960ccd33b3c272874/s/600x340?t=1744409459058",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed",
+    "meshtastic"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/a4f8f9a5d15041a9b6bf901e",
+    "mainWorkspaceId": "c139d79960ccd33b3c272874"
+  }
+}

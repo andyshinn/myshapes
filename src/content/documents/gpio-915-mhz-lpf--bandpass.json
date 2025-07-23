@@ -1,0 +1,62 @@
+{
+  "documentId": "77b5fdd67cc617ac3d30bcf3",
+  "title": "GPIO 915 MHz LPF / Bandpass",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/77b5fdd67cc617ac3d30bcf3",
+  "mainWorkspaceId": "a5acacd0842c4c443541ccbc",
+  "createdAt": "2025-06-27T18:57:18.295Z",
+  "updatedAt": "2025-07-23T06:29:10.635Z",
+  "versions": [
+    {
+      "id": "385cc54e06dcffe021dce71d",
+      "name": "V1",
+      "description": "Initial version with basic parts and images.",
+      "createdAt": "2025-07-12T15:34:04.577Z",
+      "microversion": "1eeb16ca67579f24004c350a"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/77b5fdd67cc617ac3d30bcf3/w/a5acacd0842c4c443541ccbc/s/600x340?t=1753251371684",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/77b5fdd67cc617ac3d30bcf3/w/a5acacd0842c4c443541ccbc/s/300x300?t=1753251371684",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/77b5fdd67cc617ac3d30bcf3/w/a5acacd0842c4c443541ccbc/s/70x40?t=1753251371684",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/77b5fdd67cc617ac3d30bcf3/w/a5acacd0842c4c443541ccbc/s/300x170?t=1753251371684",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "indexed",
+    "meshtastic"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/77b5fdd67cc617ac3d30bcf3",
+    "mainWorkspaceId": "a5acacd0842c4c443541ccbc"
+  }
+}

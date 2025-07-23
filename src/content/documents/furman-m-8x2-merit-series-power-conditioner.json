@@ -1,0 +1,62 @@
+{
+  "documentId": "f8c595ca6e4190e8f8fd68ca",
+  "title": "Furman M-8x2 Merit Series Power Conditioner",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/f8c595ca6e4190e8f8fd68ca",
+  "mainWorkspaceId": "47bb7700d71ef5172584179b",
+  "createdAt": "2025-02-27T22:42:34.055Z",
+  "updatedAt": "2025-03-01T09:58:52.784Z",
+  "versions": [
+    {
+      "id": "6fa2a7639538ee71762c8751",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2025-03-01T09:58:52.344Z",
+      "microversion": "984a040bb663e5177b2c5b9a"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/f8c595ca6e4190e8f8fd68ca/w/47bb7700d71ef5172584179b/s/70x40?t=1740807297034",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/f8c595ca6e4190e8f8fd68ca/w/47bb7700d71ef5172584179b/s/300x300?t=1740807297034",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/f8c595ca6e4190e8f8fd68ca/w/47bb7700d71ef5172584179b/s/600x340?t=1740807297034",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/f8c595ca6e4190e8f8fd68ca/w/47bb7700d71ef5172584179b/s/300x170?t=1740807297034",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/f8c595ca6e4190e8f8fd68ca",
+    "mainWorkspaceId": "47bb7700d71ef5172584179b"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "documentId": "23c9eb99ac3aa6248fb7643c",
+  "title": "Nano G2 Ultra",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/23c9eb99ac3aa6248fb7643c",
+  "mainWorkspaceId": "7e893527ea7fa05bcc68fc8a",
+  "createdAt": "2025-02-02T20:07:23.253Z",
+  "updatedAt": "2025-02-03T18:53:25.529Z",
+  "versions": [
+    {
+      "id": "29a2e1936fe78429b3b8d92c",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2025-02-02T22:43:48.227Z",
+      "microversion": "5ca27c59238d0e7b614cd25a"
+    },
+    {
+      "id": "d8d399a3a9e0b84d8c67d11a",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2025-02-03T00:31:15.418Z",
+      "microversion": "78af663603d26ecc0b0c7056"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/23c9eb99ac3aa6248fb7643c/w/7e893527ea7fa05bcc68fc8a/s/300x170?t=1738611874807",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/23c9eb99ac3aa6248fb7643c/w/7e893527ea7fa05bcc68fc8a/s/300x300?t=1738611874807",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/23c9eb99ac3aa6248fb7643c/w/7e893527ea7fa05bcc68fc8a/s/600x340?t=1738611874807",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/23c9eb99ac3aa6248fb7643c/w/7e893527ea7fa05bcc68fc8a/s/70x40?t=1738611874807",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed",
+    "meshtastic"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/23c9eb99ac3aa6248fb7643c",
+    "mainWorkspaceId": "7e893527ea7fa05bcc68fc8a"
+  }
+}

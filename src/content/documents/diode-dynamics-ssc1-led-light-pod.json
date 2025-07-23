@@ -1,0 +1,104 @@
+{
+  "documentId": "f5798098bb3807787364afcc",
+  "title": "Diode Dynamics SSC1 LED Light Pod",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/f5798098bb3807787364afcc",
+  "mainWorkspaceId": "bd22ca9313c24eb0b18e29de",
+  "createdAt": "2022-05-21T19:53:33.785Z",
+  "updatedAt": "2024-11-23T21:10:11.724Z",
+  "versions": [
+    {
+      "id": "a9927239aec69847d2c3127e",
+      "name": "B1",
+      "description": "",
+      "createdAt": "2022-05-23T00:47:26.881Z",
+      "microversion": "90cabbeb29a1b2de90aca9a9"
+    },
+    {
+      "id": "5fa534ab77fdd350283807d1",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2022-05-24T04:02:03.071Z",
+      "microversion": "d2c30bf99156ede5c247740f"
+    },
+    {
+      "id": "f944d5cbc89b15db6a43dd5c",
+      "name": "V3",
+      "description": "",
+      "createdAt": "2022-05-24T04:30:07.106Z",
+      "microversion": "ddf500a7aa602a7fc7a275f4"
+    },
+    {
+      "id": "ed2abf37b46d875f4c46ff98",
+      "name": "V4",
+      "description": "",
+      "createdAt": "2022-05-24T23:14:56.290Z",
+      "microversion": "5f5fbdaac7b8ca2cf1d4216f"
+    },
+    {
+      "id": "8c16e810841f579c12906e9f",
+      "name": "V5",
+      "description": "",
+      "createdAt": "2022-05-26T20:43:14.571Z",
+      "microversion": "dd5253dfeec8cbb484c851be"
+    },
+    {
+      "id": "2c74e49cb6d7ec26dda4c294",
+      "name": "V6",
+      "description": "Movement and reversing bracket",
+      "createdAt": "2024-07-12T02:01:46.208Z",
+      "microversion": "608e5a48b0d7db68bdb84ed4"
+    },
+    {
+      "id": "4b75fbd00191caa7f711aaaf",
+      "name": "V7",
+      "description": "Deutsch plug options",
+      "createdAt": "2024-07-12T02:56:02.747Z",
+      "microversion": "8d2022170916e9e0b246dddd"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/f5798098bb3807787364afcc/w/bd22ca9313c24eb0b18e29de/s/70x40?t=1732396351422",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/f5798098bb3807787364afcc/w/bd22ca9313c24eb0b18e29de/s/300x170?t=1732396351422",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/f5798098bb3807787364afcc/w/bd22ca9313c24eb0b18e29de/s/600x340?t=1732396351422",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/f5798098bb3807787364afcc/w/bd22ca9313c24eb0b18e29de/s/300x300?t=1732396351422",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/f5798098bb3807787364afcc",
+    "mainWorkspaceId": "bd22ca9313c24eb0b18e29de"
+  }
+}

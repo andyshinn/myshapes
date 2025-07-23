@@ -1,0 +1,62 @@
+{
+  "documentId": "e630640b4a7c08845b3722c9",
+  "title": "Home Assistant Case Mounting Wings Remix",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/e630640b4a7c08845b3722c9",
+  "mainWorkspaceId": "a982665c74eac10109734bab",
+  "createdAt": "2023-03-05T18:48:30.016Z",
+  "updatedAt": "2023-03-07T23:20:49.046Z",
+  "versions": [
+    {
+      "id": "98d0c50d5dc6d6e7492c3f9b",
+      "name": "V1",
+      "description": "Initial print and test mount.",
+      "createdAt": "2023-03-07T23:20:48.754Z",
+      "microversion": "f7e72a9dd2b4a03a623e15b9"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/e630640b4a7c08845b3722c9/w/a982665c74eac10109734bab/s/600x340?t=1678147186499",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/e630640b4a7c08845b3722c9/w/a982665c74eac10109734bab/s/300x300?t=1678147186499",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/e630640b4a7c08845b3722c9/w/a982665c74eac10109734bab/s/70x40?t=1678147186499",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/e630640b4a7c08845b3722c9/w/a982665c74eac10109734bab/s/300x170?t=1678147186499",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "3dprintable",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/e630640b4a7c08845b3722c9",
+    "mainWorkspaceId": "a982665c74eac10109734bab"
+  }
+}

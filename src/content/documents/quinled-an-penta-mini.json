@@ -1,0 +1,70 @@
+{
+  "documentId": "4d3d20ccd80ab749c61ef72e",
+  "title": "QuinLED-An-Penta Mini",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/4d3d20ccd80ab749c61ef72e",
+  "mainWorkspaceId": "9e167f22b943999a897f0171",
+  "createdAt": "2024-10-26T00:19:04.547Z",
+  "updatedAt": "2025-02-12T02:41:20.779Z",
+  "versions": [
+    {
+      "id": "827a3b65ec6591cc86143159",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2024-10-29T05:14:51.642Z",
+      "microversion": "c379b9213df3b4d41dc0d353"
+    },
+    {
+      "id": "401f66d504dc0357b4ac0ca1",
+      "name": "V2",
+      "description": "USB, I2C, PCB images.",
+      "createdAt": "2025-02-12T02:43:01.785Z",
+      "microversion": "939309f8adf0acd00048e03c"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/4d3d20ccd80ab749c61ef72e/w/9e167f22b943999a897f0171/s/300x300?t=1739328540523",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/4d3d20ccd80ab749c61ef72e/w/9e167f22b943999a897f0171/s/70x40?t=1739328540523",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/4d3d20ccd80ab749c61ef72e/w/9e167f22b943999a897f0171/s/600x340?t=1739328540523",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/4d3d20ccd80ab749c61ef72e/w/9e167f22b943999a897f0171/s/300x170?t=1739328540523",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed",
+    "neopixel"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/4d3d20ccd80ab749c61ef72e",
+    "mainWorkspaceId": "9e167f22b943999a897f0171"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "documentId": "5dbb9b2b538222feb1e26c52",
+  "title": "Station G2",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/5dbb9b2b538222feb1e26c52",
+  "mainWorkspaceId": "1683ee08dfdbdb24a6c71e01",
+  "createdAt": "2024-05-12T00:40:01.526Z",
+  "updatedAt": "2025-04-17T16:48:48.822Z",
+  "versions": [
+    {
+      "id": "6a3c617d23103dd8b284ae51",
+      "name": "V1",
+      "description": "Initial case parts without PCB ports.",
+      "createdAt": "2024-05-26T03:28:04.864Z",
+      "microversion": "e886c93839885f2670f00b1d"
+    },
+    {
+      "id": "966c464841d86141520f9709",
+      "name": "V2",
+      "description": "Basic ports added.",
+      "createdAt": "2024-05-26T05:35:13.484Z",
+      "microversion": "65bf7d6ed03452d574df71e8"
+    },
+    {
+      "id": "e03984148f45273cab8ac8c0",
+      "name": "V3",
+      "description": "Added mate to face for easier enclosure alignment.",
+      "createdAt": "2024-05-26T18:37:28.450Z",
+      "microversion": "ead3b374b8694456e16e6799"
+    },
+    {
+      "id": "8029d37ebf0c961c7dcd8b40",
+      "name": "V4",
+      "description": "Added USB port.",
+      "createdAt": "2024-05-26T19:38:35.527Z",
+      "microversion": "04ece8ef04f67344e5ff6b3f"
+    },
+    {
+      "id": "1ae376815777920c9ac38a97",
+      "name": "V5",
+      "description": "Add LEDs.",
+      "createdAt": "2024-05-26T20:09:35.890Z",
+      "microversion": "dbcb579ab8394219193299d1"
+    },
+    {
+      "id": "57b1de508c60816ce9078aa8",
+      "name": "V6",
+      "description": "Hole placement fixes/",
+      "createdAt": "2024-05-27T03:05:25.421Z",
+      "microversion": "6c299954c8f7550d02212c7c"
+    },
+    {
+      "id": "86088f829a6c40a697fbcf5a",
+      "name": "V7",
+      "description": "Proper Grove connectors and alignment fixes for buttons and LEDS. PCD decal to help with alignment.",
+      "createdAt": "2024-05-27T19:38:15.920Z",
+      "microversion": "ccbe4a8ca5b05b326ae44719"
+    },
+    {
+      "id": "95f318a01a2f1a32a0e08955",
+      "name": "V8",
+      "description": "",
+      "createdAt": "2024-08-23T03:30:46.381Z",
+      "microversion": "05c8d1319b40d7682fe233a4"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/5dbb9b2b538222feb1e26c52/w/1683ee08dfdbdb24a6c71e01/s/300x170?t=1747765141915",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/5dbb9b2b538222feb1e26c52/w/1683ee08dfdbdb24a6c71e01/s/300x300?t=1747765141915",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/5dbb9b2b538222feb1e26c52/w/1683ee08dfdbdb24a6c71e01/s/600x340?t=1747765141915",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/5dbb9b2b538222feb1e26c52/w/1683ee08dfdbdb24a6c71e01/s/70x40?t=1747765141915",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed",
+    "meshtastic"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/5dbb9b2b538222feb1e26c52",
+    "mainWorkspaceId": "1683ee08dfdbdb24a6c71e01"
+  }
+}

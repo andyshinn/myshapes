@@ -1,0 +1,55 @@
+{
+  "documentId": "b24ad45d43bb2feacaa1947d",
+  "title": "QuinLED Dig-Uno Case V2",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/b24ad45d43bb2feacaa1947d",
+  "mainWorkspaceId": "5a873e609fc3004200e10794",
+  "createdAt": "2023-05-26T21:53:50.067Z",
+  "updatedAt": "2024-11-23T21:10:48.945Z",
+  "versions": [],
+  "thumbnails": [
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/b24ad45d43bb2feacaa1947d/w/5a873e609fc3004200e10794/s/600x340?t=1722729858997",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/b24ad45d43bb2feacaa1947d/w/5a873e609fc3004200e10794/s/70x40?t=1722729858997",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/b24ad45d43bb2feacaa1947d/w/5a873e609fc3004200e10794/s/300x300?t=1722729858997",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/b24ad45d43bb2feacaa1947d/w/5a873e609fc3004200e10794/s/300x170?t=1722729858997",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "3dprintable",
+    "indexed",
+    "neopixel"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "onshapeUrl": "https://cad.onshape.com/documents/b24ad45d43bb2feacaa1947d",
+    "mainWorkspaceId": "5a873e609fc3004200e10794"
+  }
+}
