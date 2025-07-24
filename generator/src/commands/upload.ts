@@ -12,6 +12,15 @@ export async function uploadPDF(options: UploadOptions) {
   try {
     console.log(`Uploading ${options.file} to document ${options.document}...`);
     
+    if (options.debug) {
+      console.log('\n🔍 DEBUG: uploadPDF options:', {
+        document: options.document,
+        workspace: options.workspace,
+        file: options.file,
+        debug: options.debug
+      });
+    }
+    
     // Check if file exists
     if (!existsSync(options.file)) {
       throw new Error(`PDF file not found: ${options.file}`);

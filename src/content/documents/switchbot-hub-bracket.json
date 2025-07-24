@@ -1,0 +1,68 @@
+{
+  "documentId": "2908e7196eb726298717e497",
+  "title": "SwitchBot Hub Bracket",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/2908e7196eb726298717e497",
+  "mainWorkspaceId": "c08cfec40dd7bdb6e70306ad",
+  "createdAt": "2021-12-11T06:53:44.872Z",
+  "updatedAt": "2022-01-02T23:24:06.174Z",
+  "versions": [
+    {
+      "id": "c5f9ff1e43ff679651848563",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2021-12-30T22:51:31.887Z",
+      "microversion": "b4936e51a082739eaf96b5fd"
+    },
+    {
+      "id": "47219e4daa3b3adb8927aa72",
+      "name": "V3",
+      "description": "",
+      "createdAt": "2021-12-31T17:44:25.794Z",
+      "microversion": "ee3b0bac66b43b69117b5c0e"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/2908e7196eb726298717e497/w/c08cfec40dd7bdb6e70306ad/s/300x170?t=1641165848903",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/2908e7196eb726298717e497/w/c08cfec40dd7bdb6e70306ad/s/70x40?t=1641165848903",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/2908e7196eb726298717e497/w/c08cfec40dd7bdb6e70306ad/s/300x300?t=1641165848903",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/2908e7196eb726298717e497/w/c08cfec40dd7bdb6e70306ad/s/600x340?t=1641165848903",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "3dprintable",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "pdfElementId": "d353128154f836c23c68e1a4"
+  }
+}

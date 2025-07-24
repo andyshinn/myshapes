@@ -1,0 +1,69 @@
+{
+  "documentId": "7459c244f42db64facb3915a",
+  "title": "Pixelblaze V3 Pico",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/7459c244f42db64facb3915a",
+  "mainWorkspaceId": "eea1392f6f1d441aee8f03c0",
+  "createdAt": "2024-01-16T00:20:13.756Z",
+  "updatedAt": "2024-01-16T02:13:43.343Z",
+  "versions": [
+    {
+      "id": "8a37f841aec554cc95b01970",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2024-01-16T01:49:06.479Z",
+      "microversion": "8199dd3b44a21c92cd4c49d7"
+    },
+    {
+      "id": "31e8b40fef51c75708cdc66a",
+      "name": "V2",
+      "description": "Added pads.",
+      "createdAt": "2024-01-16T02:13:43.002Z",
+      "microversion": "70e42643ee5004c946d86bed"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/7459c244f42db64facb3915a/w/eea1392f6f1d441aee8f03c0/s/300x300?t=1705370535768",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/7459c244f42db64facb3915a/w/eea1392f6f1d441aee8f03c0/s/600x340?t=1705370535768",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/7459c244f42db64facb3915a/w/eea1392f6f1d441aee8f03c0/s/300x170?t=1705370535768",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/7459c244f42db64facb3915a/w/eea1392f6f1d441aee8f03c0/s/70x40?t=1705370535768",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed",
+    "neopixel"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "pdfElementId": "eee0e359d1cbfe4213e03160"
+  }
+}

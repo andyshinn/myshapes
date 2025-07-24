@@ -1,0 +1,104 @@
+{
+  "documentId": "08334c9083af57e9198c1465",
+  "title": "Headway 38120HP Battery Cell / Hardware",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/08334c9083af57e9198c1465",
+  "mainWorkspaceId": "caf069e717a3c67059305bb9",
+  "createdAt": "2024-07-06T23:39:07.137Z",
+  "updatedAt": "2025-07-24T00:19:12.820Z",
+  "versions": [
+    {
+      "id": "1d28aba89c9d88282c08c96b",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2024-07-06T23:39:54.220Z",
+      "microversion": "0c435f640b727cc0cfdbd3de"
+    },
+    {
+      "id": "ef0401d84d29236130ae721d",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2024-07-06T23:40:36.188Z",
+      "microversion": "a6faccf40a3fbe031fb5ff26"
+    },
+    {
+      "id": "d602e2fd364f9f1bf0d5f60d",
+      "name": "V3",
+      "description": "",
+      "createdAt": "2024-07-06T23:51:09.775Z",
+      "microversion": "b137615c95d353c899f0ee88"
+    },
+    {
+      "id": "59f2cb56d471bc86ca1880c7",
+      "name": "V4",
+      "description": "",
+      "createdAt": "2024-07-06T23:59:48.513Z",
+      "microversion": "dca42b131f9bd21fb4e8ef64"
+    },
+    {
+      "id": "36458efb3c000d6495de99cb",
+      "name": "V5",
+      "description": "",
+      "createdAt": "2024-07-07T00:37:52.597Z",
+      "microversion": "5d3e4c465a406005e5adb5df"
+    },
+    {
+      "id": "e65faaea2a84e80dc58f9c97",
+      "name": "V6",
+      "description": "",
+      "createdAt": "2024-07-09T00:47:59.903Z",
+      "microversion": "93e9c5fb434663aadb2cc964"
+    },
+    {
+      "id": "f6ec17a3c87feee2ee0dc8fa",
+      "name": "V7",
+      "description": "Removed holder posts option.",
+      "createdAt": "2024-07-25T23:48:11.016Z",
+      "microversion": "153b7c9cc4c7138cca87b0fe"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/08334c9083af57e9198c1465/w/caf069e717a3c67059305bb9/s/300x170?t=1721951332573",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/08334c9083af57e9198c1465/w/caf069e717a3c67059305bb9/s/70x40?t=1721951332573",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/08334c9083af57e9198c1465/w/caf069e717a3c67059305bb9/s/300x300?t=1721951332573",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/08334c9083af57e9198c1465/w/caf069e717a3c67059305bb9/s/600x340?t=1721951332573",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "battery",
+    "external",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "pdfElementId": "2238a29a54a9a0faf419acf4"
+  }
+}

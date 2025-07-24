@@ -1,0 +1,104 @@
+{
+  "documentId": "1c791004736ef643a31b5d6c",
+  "title": "Chargery BMS24T",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/1c791004736ef643a31b5d6c",
+  "mainWorkspaceId": "c64e8d0624d0de463de46213",
+  "createdAt": "2021-04-18T23:00:51.530Z",
+  "updatedAt": "2021-05-03T17:10:14.771Z",
+  "versions": [
+    {
+      "id": "fba3b1eccbb9f3f087d66157",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2021-04-18T23:42:36.795Z",
+      "microversion": "60dbf16cc783363029fb6c46"
+    },
+    {
+      "id": "21b0deac17bd76cb95a07624",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2021-04-19T21:11:19.672Z",
+      "microversion": "160c71cb5b5cd3302562eb94"
+    },
+    {
+      "id": "cbd68a81ed99fef8376feade",
+      "name": "V3",
+      "description": "",
+      "createdAt": "2021-04-19T23:12:06.359Z",
+      "microversion": "c3d52de169c220dac09c7ac8"
+    },
+    {
+      "id": "ae7994a5586c6c5f1ff8081c",
+      "name": "V4",
+      "description": "",
+      "createdAt": "2021-04-25T23:19:50.675Z",
+      "microversion": "ad740d8eeb5315ede89b090b"
+    },
+    {
+      "id": "7e615237751c55c8e7772551",
+      "name": "V5",
+      "description": "",
+      "createdAt": "2021-04-26T21:36:03.691Z",
+      "microversion": "6e77b33d36480b13be41882c"
+    },
+    {
+      "id": "529f1bc8dbea47a0211864c3",
+      "name": "V6",
+      "description": "",
+      "createdAt": "2021-04-30T22:59:32.746Z",
+      "microversion": "ac12342b51d0583f9a32bbf6"
+    },
+    {
+      "id": "c750a058138d82e3bd174175",
+      "name": "V7",
+      "description": "Fix some shunt dimensions",
+      "createdAt": "2021-05-03T17:10:14.404Z",
+      "microversion": "665ef670c8d63c3c43d32932"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/1c791004736ef643a31b5d6c/w/c64e8d0624d0de463de46213/s/300x300?t=1620061784740",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/1c791004736ef643a31b5d6c/w/c64e8d0624d0de463de46213/s/600x340?t=1620061784740",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/1c791004736ef643a31b5d6c/w/c64e8d0624d0de463de46213/s/300x170?t=1620061784740",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/1c791004736ef643a31b5d6c/w/c64e8d0624d0de463de46213/s/70x40?t=1620061784740",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed",
+    "kart"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "pdfElementId": "44e911fc76d8573ba0aa8c09"
+  }
+}

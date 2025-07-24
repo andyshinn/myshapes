@@ -1,0 +1,82 @@
+{
+  "documentId": "63e3200a6302fbe0d1cb746a",
+  "title": "IndustrialeMart Menics H Series Panel Indicator (H06F)",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/63e3200a6302fbe0d1cb746a",
+  "mainWorkspaceId": "1f9f78e95a0f6733bcd5f6ae",
+  "createdAt": "2021-04-29T20:19:15.327Z",
+  "updatedAt": "2024-07-15T18:40:28.727Z",
+  "versions": [
+    {
+      "id": "386793a811bf5a224fdde8e3",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2021-04-29T20:43:05.309Z",
+      "microversion": "f82d2923c99f13935e6d770a"
+    },
+    {
+      "id": "88f5c1f01b45700d0e18a3bc",
+      "name": "V2",
+      "description": "Caliper measurements and model numbers",
+      "createdAt": "2021-06-03T19:50:31.470Z",
+      "microversion": "64fafa16b9b654580a38d56e"
+    },
+    {
+      "id": "cc0c7cf8440d59418e6c8a01",
+      "name": "V3",
+      "description": "Initial H08 model.",
+      "createdAt": "2023-02-11T23:44:26.646Z",
+      "microversion": "eb4e978ef260446b864ce4fc"
+    },
+    {
+      "id": "b4d02a6c634ede1703b4eb2d",
+      "name": "V4",
+      "description": "",
+      "createdAt": "2024-07-15T18:40:28.496Z",
+      "microversion": "f682c78ac09eaa36613d8a95"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/63e3200a6302fbe0d1cb746a/w/1f9f78e95a0f6733bcd5f6ae/s/600x340?t=1721068866640",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/63e3200a6302fbe0d1cb746a/w/1f9f78e95a0f6733bcd5f6ae/s/300x170?t=1721068866640",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/63e3200a6302fbe0d1cb746a/w/1f9f78e95a0f6733bcd5f6ae/s/300x300?t=1721068866640",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/63e3200a6302fbe0d1cb746a/w/1f9f78e95a0f6733bcd5f6ae/s/70x40?t=1721068866640",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "pdfElementId": "a1341978c5960b00f22a55a2"
+  }
+}

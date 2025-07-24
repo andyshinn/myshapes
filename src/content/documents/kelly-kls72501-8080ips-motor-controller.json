@@ -1,0 +1,76 @@
+{
+  "documentId": "f4a489c92b2fdeb4c2ded815",
+  "title": "Kelly KLS72501-8080IPS Motor Controller",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/f4a489c92b2fdeb4c2ded815",
+  "mainWorkspaceId": "373b0cd9e5a99f059cbc9941",
+  "createdAt": "2021-04-17T21:27:08.142Z",
+  "updatedAt": "2021-06-01T23:06:15.701Z",
+  "versions": [
+    {
+      "id": "2948c2f78e4af26a0d447f22",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2021-04-17T22:21:03.821Z",
+      "microversion": "74c4979d4a3d0e74f2220292"
+    },
+    {
+      "id": "3de83db44bb078702239579a",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2021-04-19T03:59:10.079Z",
+      "microversion": "060403fe3542b7cd832d814b"
+    },
+    {
+      "id": "eb492735abfcbf78fad08023",
+      "name": "V3",
+      "description": "",
+      "createdAt": "2021-06-01T23:04:32.000Z",
+      "microversion": "f06c7ebbf0d6c922181c41ed"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/f4a489c92b2fdeb4c2ded815/w/373b0cd9e5a99f059cbc9941/s/600x340?t=1622588676542",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/f4a489c92b2fdeb4c2ded815/w/373b0cd9e5a99f059cbc9941/s/300x300?t=1622588676542",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/f4a489c92b2fdeb4c2ded815/w/373b0cd9e5a99f059cbc9941/s/70x40?t=1622588676542",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/f4a489c92b2fdeb4c2ded815/w/373b0cd9e5a99f059cbc9941/s/300x170?t=1622588676542",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed",
+    "kart"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "pdfElementId": "c860ec8837cbf568e8911641"
+  }
+}

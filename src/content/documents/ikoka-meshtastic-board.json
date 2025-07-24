@@ -1,0 +1,90 @@
+{
+  "documentId": "c246b8bcaf6e7b1a8e20c444",
+  "title": "Ikoka Meshtastic Board",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/c246b8bcaf6e7b1a8e20c444",
+  "mainWorkspaceId": "90b288ce1f1f7b6c9c1c5b7c",
+  "createdAt": "2025-04-14T01:33:47.045Z",
+  "updatedAt": "2025-07-24T00:23:28.460Z",
+  "versions": [
+    {
+      "id": "20e0d357b93161d52b4dbdf7",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2025-04-14T03:36:02.236Z",
+      "microversion": "4cda878f9d2c2d4ff500907b"
+    },
+    {
+      "id": "13d2f2ab41a3bc7029ec18c4",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2025-04-25T02:41:49.774Z",
+      "microversion": "8db2c1963902758e34b928f3"
+    },
+    {
+      "id": "7aa265e1f2c8202ca52ac70a",
+      "name": "V3",
+      "description": "",
+      "createdAt": "2025-04-28T02:13:06.588Z",
+      "microversion": "54ab0394d785a8c4f98f95f8"
+    },
+    {
+      "id": "5aa7408a459ae33dbd122d6a",
+      "name": "V4",
+      "description": "",
+      "createdAt": "2025-04-28T02:15:48.723Z",
+      "microversion": "d596887736835dfc821a6a54"
+    },
+    {
+      "id": "d2c218f064327a321b3308a7",
+      "name": "V5",
+      "description": "",
+      "createdAt": "2025-07-12T20:58:44.025Z",
+      "microversion": "5d6b6319d828242712aab5ba"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/c246b8bcaf6e7b1a8e20c444/w/90b288ce1f1f7b6c9c1c5b7c/s/600x340?t=1753316620282",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/c246b8bcaf6e7b1a8e20c444/w/90b288ce1f1f7b6c9c1c5b7c/s/70x40?t=1753316620282",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/c246b8bcaf6e7b1a8e20c444/w/90b288ce1f1f7b6c9c1c5b7c/s/300x300?t=1753316620282",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/c246b8bcaf6e7b1a8e20c444/w/90b288ce1f1f7b6c9c1c5b7c/s/300x170?t=1753316620282",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed",
+    "meshtastic"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "pdfElementId": "937a9746a27197ae609258da"
+  }
+}

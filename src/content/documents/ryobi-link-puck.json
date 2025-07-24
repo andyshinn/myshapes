@@ -1,0 +1,53 @@
+{
+  "documentId": "b0315822522f8e9e1f8155b6",
+  "title": "Ryobi Link Puck",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/b0315822522f8e9e1f8155b6",
+  "mainWorkspaceId": "e6dca1c59f7eade81115327e",
+  "createdAt": "2023-09-06T22:29:18.478Z",
+  "updatedAt": "2023-09-18T17:25:00.076Z",
+  "versions": [],
+  "thumbnails": [
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/b0315822522f8e9e1f8155b6/w/e6dca1c59f7eade81115327e/s/600x340?t=1695058303551",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/b0315822522f8e9e1f8155b6/w/e6dca1c59f7eade81115327e/s/300x300?t=1695058303551",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/b0315822522f8e9e1f8155b6/w/e6dca1c59f7eade81115327e/s/70x40?t=1695058303551",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/b0315822522f8e9e1f8155b6/w/e6dca1c59f7eade81115327e/s/300x170?t=1695058303551",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "3dprintable",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "pdfElementId": "e128e02310ee2a16a73b9552"
+  }
+}

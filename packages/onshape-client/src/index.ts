@@ -1,4 +1,5 @@
 import axios, { type AxiosInstance } from 'axios';
+import axiosRetry from 'axios-retry';
 import crypto from 'crypto';
 import FormData from 'form-data';
 
@@ -61,6 +62,23 @@ export class OnshapeClient {
     this.api = axios.create({
       baseURL: `${baseUrl}/api/v12`,
       timeout: 30000
+    });
+
+    // Configure automatic retries for 502, 503, 504 errors and network errors
+    axiosRetry(this.api, {
+      retries: 3,
+      retryDelay: axiosRetry.exponentialDelay,
+      retryCondition: (error) => {
+        return axiosRetry.isNetworkOrIdempotentRequestError(error) ||
+               error.response?.status === 502 ||
+               error.response?.status === 503 ||
+               error.response?.status === 504;
+      },
+      onRetry: (retryCount, error, requestConfig) => {
+        if (this.debug) {
+          console.log(`⚠️  Retry attempt ${retryCount}/3 for ${error.response?.status || 'network'} error`);
+        }
+      }
     });
 
     this.api.interceptors.request.use(config => {

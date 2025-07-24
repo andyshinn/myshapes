@@ -1,0 +1,83 @@
+{
+  "documentId": "991c4a5831e2f997a4a71842",
+  "title": "Kuberdoo",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/991c4a5831e2f997a4a71842",
+  "mainWorkspaceId": "bb91f76a25a96fa561acf156",
+  "createdAt": "2017-10-09T23:14:30.617Z",
+  "updatedAt": "2022-09-11T17:44:16.516Z",
+  "versions": [
+    {
+      "id": "37da155ac7037c5b0d3d9d47",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2017-10-13T02:52:06.831Z",
+      "microversion": "f1bcbe572bef926733354937"
+    },
+    {
+      "id": "47d62ad7eefb6ddab4c5a280",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2017-10-13T03:11:10.465Z",
+      "microversion": "a82b89f3fb55f8de7d3e7182"
+    },
+    {
+      "id": "0dad61228241e2186a6919e8",
+      "name": "V3",
+      "description": "This was the first version that was cut. There are some minor errors (top rear notches not lining up with top panel, PSU holes to far forward, switch holes not lined up, switch too far back).",
+      "createdAt": "2017-10-25T23:54:05.397Z",
+      "microversion": "b4e868cf84e76dbd0a6ee3b6"
+    },
+    {
+      "id": "586459c2ddcbda0bf2154bbb",
+      "name": "V4",
+      "description": "Updated for a couple of fixes / additions:\n* Added 2 additional hole mounts for the LRS-100 PSU\n* Fixed back panel notch alignment\n* Moved top-rear GS108 mounting hole back 3mm\n* Moved PSU and board stack back away from front panel a bit for relief",
+      "createdAt": "2018-05-08T02:49:46.592Z",
+      "microversion": "966fd432325574f2aff43050"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/991c4a5831e2f997a4a71842/w/bb91f76a25a96fa561acf156/s/300x170?t=1662919585778",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/991c4a5831e2f997a4a71842/w/bb91f76a25a96fa561acf156/s/300x300?t=1662919585778",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/991c4a5831e2f997a4a71842/w/bb91f76a25a96fa561acf156/s/70x40?t=1662919585778",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/991c4a5831e2f997a4a71842/w/bb91f76a25a96fa561acf156/s/600x340?t=1662919585778",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "acrylic",
+    "case",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "pdfElementId": "bcd4338bf4b3c3026f805b25"
+  }
+}

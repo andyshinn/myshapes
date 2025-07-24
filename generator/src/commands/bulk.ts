@@ -1,6 +1,7 @@
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { readFileSync, existsSync, readdirSync } from 'fs';
+import { execSync } from 'child_process';
 import { OnshapeClient, DocumentFilter } from '../../../packages/onshape-client/src/index.js';
 import { syncDocuments } from './sync.js';
 import { generatePDF } from './generate.js';
@@ -9,6 +10,8 @@ import { uploadPDF } from './upload.js';
 // Get current file directory for proper path resolution
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
+
+// axios-retry is now configured in OnshapeClient, so we don't need custom retry logic
 
 interface BulkSyncOptions {
   label?: string;
@@ -254,6 +257,7 @@ export async function bulkUpload(options: BulkUploadOptions) {
 
     let uploadCount = 0;
     let skippedCount = 0;
+    let processedCount = 0; // Track total documents processed for numbering
 
     for (const jsonFile of jsonFiles) {
       try {
@@ -269,13 +273,15 @@ export async function bulkUpload(options: BulkUploadOptions) {
         const pdfFileName = jsonFile.replace('.json', '.pdf');
         const pdfPath = resolve(pdfDir, pdfFileName);
 
+        processedCount++; // Increment for each document we process (regardless of skip reason)
+
         if (!existsSync(pdfPath)) {
-          console.log(`⚠️  Skipping ${documentData.title}: PDF not found (${pdfFileName})`);
+          console.log(`\n[${processedCount}] Skipping ${documentData.title}: PDF not found (${pdfFileName})`);
           skippedCount++;
           continue;
         }
 
-        console.log(`\n[${uploadCount + 1}] Uploading PDF for: ${documentData.title}`);
+        console.log(`\n[${processedCount}] Uploading PDF for: ${documentData.title}`);
 
         // Check if PDF upload should be skipped for this document
         if (documentData.userData?.skipPdfUpload === true) {
@@ -284,23 +290,44 @@ export async function bulkUpload(options: BulkUploadOptions) {
           continue;
         }
 
-        // Get workspace ID - use provided workspace or stored main workspace
-        let workspaceId = options.workspace || documentData.mainWorkspaceId;
-        if (!workspaceId) {
-          console.log(`❌ No workspace ID available for ${documentData.title}. Run sync first or provide --workspace option.`);
+        // WORKAROUND: Shell out to single upload command since it works reliably
+        try {
+          const cliPath = resolve(__dirname, '../index.ts');
+          let uploadCmd = `npx tsx "${cliPath}"`;
+          
+          if (options.debug) {
+            uploadCmd += ' --debug';
+          }
+          
+          uploadCmd += ` upload -d ${documentData.documentId} -f "${pdfPath}"`;
+          
+          if (options.workspace) {
+            uploadCmd += ` -w ${options.workspace}`;
+          }
+
+          if (options.debug) {
+            console.log(`🔧 Running single upload command: ${uploadCmd}`);
+          }
+
+          execSync(uploadCmd, { 
+            stdio: 'inherit', // Show output in real-time
+            cwd: resolve(__dirname, '../../..') // Run from project root
+          });
+
+          uploadCount++;
+
+          // Add delay between uploads to prevent rate limiting
+          if (processedCount < jsonFiles.length) {
+            const delay = 2000; // 2 second delay between uploads
+            if (options.debug) {
+              console.log(`⏱️  Waiting ${delay}ms before next upload...`);
+            }
+            await new Promise(resolve => setTimeout(resolve, delay));
+          }
+        } catch (uploadError) {
+          console.error(`❌ Failed to upload PDF for ${documentData.title}:`, uploadError instanceof Error ? uploadError.message : 'Unknown error');
           skippedCount++;
-          continue;
         }
-
-        // Upload PDF (this will handle create vs update automatically)
-        await uploadPDF({
-          document: documentData.documentId,
-          workspace: workspaceId,
-          file: pdfPath,
-          debug: options.debug
-        });
-
-        uploadCount++;
 
       } catch (error) {
         console.error(`❌ Error processing ${jsonFile}:`, error instanceof Error ? error.message : 'Unknown error');

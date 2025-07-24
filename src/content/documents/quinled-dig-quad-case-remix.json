@@ -1,0 +1,97 @@
+{
+  "documentId": "6b332db414a2cafaa24c645e",
+  "title": "QuinLED Dig-Quad Case Remix",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/6b332db414a2cafaa24c645e",
+  "mainWorkspaceId": "21aabc8fbc01fac9cfa907e9",
+  "createdAt": "2022-10-15T16:28:51.620Z",
+  "updatedAt": "2024-12-02T18:55:48.754Z",
+  "versions": [
+    {
+      "id": "f07bad7c21ecca4a73ea16ce",
+      "name": "P1",
+      "description": "",
+      "createdAt": "2022-10-16T16:49:47.854Z",
+      "microversion": "c97972520913a6b90c061a59"
+    },
+    {
+      "id": "d688f1e8404e57cef8dae6a3",
+      "name": "P2",
+      "description": "",
+      "createdAt": "2022-10-16T16:50:09.984Z",
+      "microversion": "c97972520913a6b90c061a59"
+    },
+    {
+      "id": "8998ee678ba1ba37d4a62fea",
+      "name": "V1",
+      "description": "",
+      "createdAt": "2022-10-17T00:33:35.134Z",
+      "microversion": "0af518943a8ecc849874628a"
+    },
+    {
+      "id": "bd2eccd224c14837c06f9a88",
+      "name": "V2",
+      "description": "",
+      "createdAt": "2022-10-17T03:47:46.674Z",
+      "microversion": "7e4961647f14e4ff5cde20a8"
+    },
+    {
+      "id": "babfa4d28454f019e31b67f6",
+      "name": "V5",
+      "description": "Add ground terminal port.",
+      "createdAt": "2022-12-11T19:08:52.052Z",
+      "microversion": "602703a65b490a445f6bde98"
+    },
+    {
+      "id": "cbb5aa0b48b9385bf61ca361",
+      "name": "V8",
+      "description": "Added space for ESP32 builtin antenna and round antenna hole.",
+      "createdAt": "2023-12-24T04:22:08.707Z",
+      "microversion": "2c45d815166206338b51900d"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/6b332db414a2cafaa24c645e/w/f2d282fe891d1df78c115d52/s/300x300?t=1733166438158",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/6b332db414a2cafaa24c645e/w/f2d282fe891d1df78c115d52/s/70x40?t=1733166438158",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/6b332db414a2cafaa24c645e/w/f2d282fe891d1df78c115d52/s/300x170?t=1733166438158",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/6b332db414a2cafaa24c645e/w/f2d282fe891d1df78c115d52/s/600x340?t=1733166438158",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "3dprintable",
+    "indexed",
+    "neopixel"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "pdfElementId": "9d47518dbf7eec1ad1f66453"
+  }
+}

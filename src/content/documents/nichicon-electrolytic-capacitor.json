@@ -1,0 +1,75 @@
+{
+  "documentId": "fc51da43975953bad1e974a7",
+  "title": "Nichicon Electrolytic Capacitor",
+  "description": "",
+  "onshapeUrl": "https://cad.onshape.com/documents/fc51da43975953bad1e974a7",
+  "mainWorkspaceId": "3a09cfc8450006432519ad02",
+  "createdAt": "2021-03-05T18:35:28.872Z",
+  "updatedAt": "2021-03-20T17:55:34.227Z",
+  "versions": [
+    {
+      "id": "5f098438252d28a9cf355e24",
+      "name": "A1",
+      "description": "",
+      "createdAt": "2021-03-05T18:46:41.231Z",
+      "microversion": "5c85febac0497f7a42e8e9ee"
+    },
+    {
+      "id": "20950445c68239fd6eacc8d0",
+      "name": "A2",
+      "description": "",
+      "createdAt": "2021-03-05T19:09:52.296Z",
+      "microversion": "750f94483fedabecd63a4626"
+    },
+    {
+      "id": "7dc6a0642898039f0950d065",
+      "name": "A3",
+      "description": "",
+      "createdAt": "2021-03-05T19:10:19.949Z",
+      "microversion": "9177d1d4c0b19fe8b245cd63"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/fc51da43975953bad1e974a7/w/3a09cfc8450006432519ad02/s/70x40?t=1616262946729",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/fc51da43975953bad1e974a7/w/3a09cfc8450006432519ad02/s/600x340?t=1616262946729",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/fc51da43975953bad1e974a7/w/3a09cfc8450006432519ad02/s/300x300?t=1616262946729",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/fc51da43975953bad1e974a7/w/3a09cfc8450006432519ad02/s/300x170?t=1616262946729",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "pdfElementId": "15b321b060c9ed37b86592c2"
+  }
+}
