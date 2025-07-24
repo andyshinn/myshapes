@@ -23,23 +23,40 @@ const { title, description = "A collection of CAD models and technical documenta
 	</head>
 	<body class="bg-base-200">
 		<!-- Header -->
-		<header class="navbar bg-base-200 shadow-lg">
-			<div class="container mx-auto">
+		<header class="navbar bg-base-200 shadow-lg mb-4 min-h-16">
+			<div class="container mx-auto flex justify-between items-center h-16">
 				<div class="navbar-start">
 					<a href="/" class="btn btn-ghost text-xl font-bold">{SITE_NAME}</a>
 				</div>
-				<div class="navbar-end">
-					{showBackButton ? (
-						<a href="/" class="btn btn-ghost btn-sm">← Back to Gallery</a>
-					) : (
-						<slot name="header-end" />
-					)}
+				<div class="navbar-end pr-40">
+					<div class="flex items-center gap-2">
+						{showBackButton && (
+							<a href="/" class="btn btn-ghost btn-sm">← Back to Gallery</a>
+						)}
+						{!showBackButton && (
+							<slot name="header-end" />
+						)}
+					</div>
 				</div>
 			</div>
 		</header>
 
+		<!-- GitHub Corner - positioned outside header -->
+		<div class="fixed top-0 right-0 z-50">
+			<div class="w-50 h-50 bg-base-100 transform rotate-45 origin-top-right translate-x-44"></div>
+			<a
+				href="https://github.com/andyshinn/myshapes"
+				class="absolute top-2 right-2 z-10 p-2 hover:bg-base-300 rounded transition-colors"
+				target="_blank"
+				rel="noopener"
+				aria-label="View on GitHub"
+			>
+				<Icon name="simple-icons:github" class="w-8 h-8" />
+			</a>
+		</div>
+
 		<!-- Main Content -->
-		<main class="container mx-auto px-4 py-8">
+		<main class="container mx-auto">
 			<slot />
 		</main>
 

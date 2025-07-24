@@ -9,27 +9,103 @@ import { SITE_NAME } from 'astro:env/server';
 // Load all documents from the content collection
 const documents = await getCollection('documents');
 
-// Sort by most recently updated
+// Sort by most recently updated (default)
 const sortedDocuments = documents.sort((a, b) =>
   new Date(b.data.updatedAt).getTime() - new Date(a.data.updatedAt).getTime()
 );
+
+// Get all unique labels (excluding 'indexed')
+const allLabels = [...new Set(
+  documents.flatMap(doc => doc.data.labels.filter(label => label !== 'indexed'))
+)].sort();
 
 // Dynamically import images
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/*.png');
 ---
 
 <BaseLayout title={`${SITE_NAME} - CAD Model Gallery`} description="A collection of CAD models and technical documentation">
-	<div slot="header-end" class="badge badge-primary">{documents.length} Models</div>
 			<div class="text-center mb-12">
 				<h2 class="text-4xl font-bold mb-4">CAD Model Gallery</h2>
 				<p class="text-lg text-base-content/70 max-w-2xl mx-auto">
-					Explore our collection of 3D models, technical documentation, and design iterations.
-					Each model includes detailed specifications, version history, and downloadable PDFs.
+					Here you can find and filter a small selection of CAD models made by me with Onshape. Feel free to reach out to me if you use any of models and have feedback.
 				</p>
 			</div>
 
+			<!-- Filters and Sorting -->
+			<div class="mb-8 space-y-4">
+				<!-- Search Input -->
+				<div class="flex justify-center">
+					<input
+						type="text"
+						placeholder="Search models, descriptions, or version notes..."
+						class="input input-bordered w-full max-w-md"
+						id="searchInput"
+					/>
+				</div>
+
+				<!-- Filters and Sort Controls -->
+				<div class="flex flex-wrap gap-4 justify-center items-center">
+					<!-- Label Filter -->
+					<div class="dropdown">
+						<div tabindex="0" role="button" class="btn btn-outline">
+							<span id="labelFilterText">All Labels</span>
+							<svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+							</svg>
+						</div>
+						<ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+							<li>
+								<label class="label cursor-pointer">
+									<input type="checkbox" class="checkbox checkbox-sm" value="" id="label-all" checked />
+									<span class="label-text">All Labels</span>
+								</label>
+							</li>
+							<div class="divider my-1"></div>
+							{allLabels.map((label, index) => (
+								<li>
+									<label class="label cursor-pointer">
+										<input type="checkbox" class="checkbox checkbox-sm label-filter-checkbox" value={label} id={`label-${index}`} />
+										<span class="label-text">{label}</span>
+									</label>
+								</li>
+							))}
+						</ul>
+					</div>
+
+					<!-- Sort Dropdown -->
+					<div class="dropdown">
+						<div tabindex="0" role="button" class="btn btn-outline">
+							<span id="sortText">Updated Date</span>
+							<svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+							</svg>
+						</div>
+						<ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
+							<li><a href="#" class="sort-option" data-sort="updatedAt">Updated Date</a></li>
+							<li><a href="#" class="sort-option" data-sort="createdAt">Created Date</a></li>
+							<li><a href="#" class="sort-option" data-sort="title">Title</a></li>
+							<li><a href="#" class="sort-option" data-sort="versions">Version Count</a></li>
+						</ul>
+					</div>
+
+					<!-- Sort Direction Toggle -->
+					<label class="swap swap-rotate btn btn-circle btn-outline">
+						<input type="checkbox" id="sortDirection" />
+						<svg class="swap-off w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4h13M3 8h9m-9 4h6m4 0l4-4m0 0l4 4m-4-4v12"></path>
+						</svg>
+						<svg class="swap-on w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 4h13M3 8h9m-9 4h9m5-4v12m0 0l-4-4m4 4l4-4"></path>
+						</svg>
+					</label>
+
+					<!-- Results Count -->
+					<div class="badge badge-primary badge-xl" id="resultsCount">{documents.length} models</div>
+				</div>
+			</div>
+
 			<!-- Document Grid -->
-			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+			<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6" id="documentGrid">
 				{sortedDocuments.map((doc) => {
 					// Get the best thumbnail (prefer 600x340 or largest available)
 					const thumbnail = doc.data.thumbnails.find(t => t.size === '600x340') ||
@@ -39,8 +115,24 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/*.png')
 					const imagePath = `/src/images/${doc.data.documentId}-600x340.png`;
 					const hasImage = images[imagePath];
 
+					// Prepare search text for filtering
+					const searchText = [
+						doc.data.title,
+						doc.data.description || '',
+						...doc.data.versions.map(v => v.description || ''),
+						...doc.data.labels.filter(label => label !== 'indexed')
+					].join(' ').toLowerCase();
+
 					return (
-						<div class="card bg-base-100 shadow-sm">
+						<div
+							class="card bg-base-100 shadow-sm document-card"
+							data-title={doc.data.title.toLowerCase()}
+							data-created={doc.data.createdAt}
+							data-updated={doc.data.updatedAt}
+							data-versions={doc.data.versions.length}
+							data-labels={doc.data.labels.filter(label => label !== 'indexed').join(',')}
+							data-search={searchText}
+						>
 							<figure>
 								<a href={`/${doc.data.documentId}/`} class="block">
 									{thumbnail ? (
@@ -92,15 +184,6 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/*.png')
 									<span>{doc.data.versions.length} version{doc.data.versions.length !== 1 ? 's' : ''}</span>
 									<span>Updated {new Date(doc.data.updatedAt).toLocaleDateString()}</span>
 								</div>
-
-								<div class="card-actions justify-end mt-4">
-									<a
-										href={`/${doc.data.documentId}/`}
-										class="btn btn-primary btn-sm"
-									>
-										View Details
-									</a>
-								</div>
 							</div>
 						</div>
 					);
@@ -116,4 +199,172 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/*.png')
 					</p>
 				</div>
 			)}
+
+			<script>
+				// State management
+				let currentSort = 'updatedAt';
+				let isAscending = false;
+				let selectedLabels = new Set(); // Store multiple selected labels
+				let currentSearchText = '';
+
+				// Get DOM elements
+				const searchInput = document.getElementById('searchInput');
+				const sortDirectionToggle = document.getElementById('sortDirection');
+				const labelFilterText = document.getElementById('labelFilterText');
+				const sortText = document.getElementById('sortText');
+				const resultsCount = document.getElementById('resultsCount');
+				const documentGrid = document.getElementById('documentGrid');
+				const allLabelsCheckbox = document.getElementById('label-all');
+				const labelCheckboxes = document.querySelectorAll('.label-filter-checkbox');
+
+				// Get all document cards
+				let allCards = Array.from(document.querySelectorAll('.document-card'));
+
+				// Filter and sort functions
+				function filterAndSort() {
+					let filteredCards = allCards.filter(card => {
+						// Text search filter
+						if (currentSearchText) {
+							const searchData = card.dataset.search || '';
+							if (!searchData.includes(currentSearchText.toLowerCase())) {
+								return false;
+							}
+						}
+
+						// Label filter - show only if ALL selected labels match (AND logic)
+						if (selectedLabels.size > 0) {
+							const cardLabels = (card.dataset.labels || '').split(',').filter(l => l.trim());
+							const hasAllLabels = Array.from(selectedLabels).every(label => cardLabels.includes(label));
+							if (!hasAllLabels) {
+								return false;
+							}
+						}
+
+						return true;
+					});
+
+					// Sort the filtered cards
+					filteredCards.sort((a, b) => {
+						let aVal, bVal;
+
+						switch (currentSort) {
+							case 'title':
+								aVal = a.dataset.title || '';
+								bVal = b.dataset.title || '';
+								break;
+							case 'createdAt':
+								aVal = new Date(a.dataset.created).getTime();
+								bVal = new Date(b.dataset.created).getTime();
+								break;
+							case 'updatedAt':
+								aVal = new Date(a.dataset.updated).getTime();
+								bVal = new Date(b.dataset.updated).getTime();
+								break;
+							case 'versions':
+								aVal = parseInt(a.dataset.versions) || 0;
+								bVal = parseInt(b.dataset.versions) || 0;
+								break;
+							default:
+								aVal = new Date(a.dataset.updated).getTime();
+								bVal = new Date(b.dataset.updated).getTime();
+						}
+
+						if (typeof aVal === 'string') {
+							const comparison = aVal.localeCompare(bVal);
+							return isAscending ? comparison : -comparison;
+						} else {
+							const comparison = aVal - bVal;
+							return isAscending ? comparison : -comparison;
+						}
+					});
+
+					// Update the DOM
+					updateDisplay(filteredCards);
+				}
+
+				function updateDisplay(visibleCards) {
+					// Hide all cards first
+					allCards.forEach(card => card.style.display = 'none');
+
+					// Show and reorder visible cards
+					visibleCards.forEach((card, index) => {
+						card.style.display = 'block';
+						card.style.order = index;
+					});
+
+					// Update results count
+					resultsCount.textContent = `${visibleCards.length} model${visibleCards.length !== 1 ? 's' : ''}`;
+				}
+
+				// Event listeners
+				searchInput.addEventListener('input', (e) => {
+					currentSearchText = e.target.value.trim();
+					filterAndSort();
+				});
+
+				sortDirectionToggle.addEventListener('change', (e) => {
+					isAscending = e.target.checked;
+					filterAndSort();
+				});
+
+				// Update filter button text
+				function updateFilterButtonText() {
+					if (selectedLabels.size === 0) {
+						labelFilterText.textContent = 'All Labels';
+					} else if (selectedLabels.size === 1) {
+						labelFilterText.textContent = Array.from(selectedLabels)[0];
+					} else {
+						labelFilterText.textContent = `${selectedLabels.size} Labels`;
+					}
+				}
+
+				// "All Labels" checkbox handler
+				allLabelsCheckbox.addEventListener('change', (e) => {
+					if (e.target.checked) {
+						// Uncheck all other checkboxes
+						labelCheckboxes.forEach(checkbox => checkbox.checked = false);
+						selectedLabels.clear();
+					}
+					updateFilterButtonText();
+					filterAndSort();
+				});
+
+				// Individual label checkboxes
+				labelCheckboxes.forEach(checkbox => {
+					checkbox.addEventListener('change', (e) => {
+						const label = e.target.value;
+
+						if (e.target.checked) {
+							// Uncheck "All Labels" when selecting specific labels
+							allLabelsCheckbox.checked = false;
+							selectedLabels.add(label);
+						} else {
+							selectedLabels.delete(label);
+							// Check "All Labels" if no specific labels are selected
+							if (selectedLabels.size === 0) {
+								allLabelsCheckbox.checked = true;
+							}
+						}
+
+						updateFilterButtonText();
+						filterAndSort();
+					});
+				});
+
+				// Sort options
+				document.querySelectorAll('.sort-option').forEach(option => {
+					option.addEventListener('click', (e) => {
+						e.preventDefault();
+						currentSort = e.target.dataset.sort;
+						sortText.textContent = e.target.textContent;
+						filterAndSort();
+
+						// Close dropdown
+						document.activeElement.blur();
+					});
+				});
+
+				// Initial load
+				filterAndSort();
+			</script>
 </BaseLayout>
