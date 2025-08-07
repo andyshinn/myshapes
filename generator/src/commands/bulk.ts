@@ -6,6 +6,7 @@ import { OnshapeClient, DocumentFilter } from '../../../packages/onshape-client/
 import { syncDocuments } from './sync.js';
 import { generatePDF } from './generate.js';
 import { uploadPDF } from './upload.js';
+import { generateFilenameFromTitle, getPdfDir, getDocumentsDir } from '../utils/document-utils.js';
 
 // Get current file directory for proper path resolution
 const __filename = fileURLToPath(import.meta.url);
@@ -108,7 +109,7 @@ export async function bulkSync(options: BulkSyncOptions) {
         if (options.generatePdf) {
           console.log('Generating PDF...');
 
-          const safeFileName = doc.name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+          const safeFileName = generateFilenameFromTitle(doc.name);
           const outputPath = resolve(__dirname, '../../../public/pdf', `${safeFileName}.pdf`);
 
           // Use template from options or default
@@ -187,7 +188,7 @@ export async function bulkGenerate(options: BulkGenerateOptions) {
       console.log(`\n[${index + 1}/${documents.length}] Generating PDF for: ${doc.name}`);
 
       try {
-        const safeFileName = doc.name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+        const safeFileName = generateFilenameFromTitle(doc.name);
         const outputPath = resolve(__dirname, '../../../public/pdf', `${safeFileName}.pdf`);
 
         // Use template from options or default
@@ -232,8 +233,8 @@ export async function bulkUpload(options: BulkUploadOptions) {
     console.log(`🚀 Uploading PDFs for documents with ${searchCriteria.join(', ')}`);
 
     // Get list of JSON files in content directory to find documents
-    const contentDir = resolve(__dirname, '../../../src/content/documents');
-    const pdfDir = resolve(__dirname, '../../../public/pdf');
+    const contentDir = getDocumentsDir();
+    const pdfDir = getPdfDir();
     
     if (!existsSync(contentDir)) {
       console.error('❌ Content directory not found. Run sync first.');
@@ -299,7 +300,7 @@ export async function bulkUpload(options: BulkUploadOptions) {
             uploadCmd += ' --debug';
           }
           
-          uploadCmd += ` upload -d ${documentData.documentId} -f "${pdfPath}"`;
+          uploadCmd += ` upload -d ${documentData.documentId}`;
           
           if (options.workspace) {
             uploadCmd += ` -w ${options.workspace}`;

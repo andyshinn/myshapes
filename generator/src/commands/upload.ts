@@ -1,4 +1,4 @@
-import { readFileSync, existsSync, writeFileSync } from 'fs';
+import { readFileSync, existsSync, writeFileSync, readdirSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { OnshapeClient } from '../../../packages/onshape-client/src/index.js';
@@ -10,45 +10,62 @@ const __dirname = dirname(__filename);
 
 export async function uploadPDF(options: UploadOptions) {
   try {
-    console.log(`Uploading ${options.file} to document ${options.document}...`);
+    // First, find the document JSON file by documentId
+    let documentData: any = null;
+    let jsonPath: string | null = null;
+    let filename: string;
+    let pdfFilePath: string;
+    
+    // Look through all JSON files to find the one with matching documentId
+    const documentsDir = resolve(__dirname, '../../../src/content/documents');
+    const jsonFiles = readdirSync(documentsDir).filter(file => file.endsWith('.json'));
+    
+    for (const jsonFile of jsonFiles) {
+      const filePath = resolve(documentsDir, jsonFile);
+      try {
+        const data = JSON.parse(readFileSync(filePath, 'utf-8'));
+        if (data.documentId === options.document) {
+          documentData = data;
+          jsonPath = filePath;
+          // Generate filename from title (same logic as generate command)
+          filename = data.title.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+          break;
+        }
+      } catch (error) {
+        // Skip invalid JSON files
+        continue;
+      }
+    }
+    
+    if (!documentData) {
+      throw new Error(`No synced document data found for document ID: ${options.document}. Run sync first.`);
+    }
+    
+    // Construct PDF file path
+    pdfFilePath = resolve(__dirname, '../../../public/pdf', `${filename}.pdf`);
     
     if (options.debug) {
       console.log('\n🔍 DEBUG: uploadPDF options:', {
         document: options.document,
         workspace: options.workspace,
-        file: options.file,
+        inferredFilename: filename,
+        pdfPath: pdfFilePath,
         debug: options.debug
       });
     }
     
-    // Check if file exists
-    if (!existsSync(options.file)) {
-      throw new Error(`PDF file not found: ${options.file}`);
+    console.log(`Uploading ${pdfFilePath} to document ${options.document}...`);
+    
+    // Check if PDF file exists
+    if (!existsSync(pdfFilePath)) {
+      throw new Error(`PDF file not found: ${pdfFilePath}. Run generate first.`);
     }
     
-    // Try to load document data for workspace ID and existing PDF element ID
+    // Get workspace ID from document data or options
     let workspaceId = options.workspace;
-    let documentData: any = null;
-    let jsonPath: string | null = null;
-    
-    // Try to find document filename from the PDF path
-    const pdfName = options.file.split('/').pop()?.replace('.pdf', '') || '';
-    const possibleJsonPath = resolve(__dirname, '../../../src/content/documents', `${pdfName}.json`);
-    
-    if (existsSync(possibleJsonPath)) {
-      try {
-        documentData = JSON.parse(readFileSync(possibleJsonPath, 'utf-8'));
-        jsonPath = possibleJsonPath;
-        
-        if (!workspaceId && documentData.mainWorkspaceId) {
-          workspaceId = documentData.mainWorkspaceId;
-          console.log(`✅ Using main workspace from synced data: ${workspaceId}`);
-        }
-      } catch (error) {
-        console.log('⚠️  Could not load document data:', error instanceof Error ? error.message : 'Unknown error');
-      }
-    } else {
-      console.log('⚠️  No synced document data found');
+    if (!workspaceId && documentData.mainWorkspaceId) {
+      workspaceId = documentData.mainWorkspaceId;
+      console.log(`✅ Using main workspace from synced data: ${workspaceId}`);
     }
     
     if (!workspaceId) {
@@ -65,8 +82,8 @@ export async function uploadPDF(options: UploadOptions) {
     
     // Read PDF file
     console.log('Reading PDF file...');
-    const pdfBuffer = readFileSync(options.file);
-    const filename = options.file.split('/').pop() || 'document.pdf';
+    const pdfBuffer = readFileSync(pdfFilePath);
+    const pdfFilename = `${filename}.pdf`;
     
     console.log(`File size: ${(pdfBuffer.length / 1024 / 1024).toFixed(2)} MB`);
     
@@ -85,7 +102,7 @@ export async function uploadPDF(options: UploadOptions) {
         workspaceId,
         existingElementId,
         pdfBuffer,
-        filename,
+        pdfFilename,
         displayName
       );
       console.log(`✅ PDF updated successfully!`);
@@ -98,13 +115,13 @@ export async function uploadPDF(options: UploadOptions) {
         options.document,
         workspaceId,
         pdfBuffer,
-        filename,
+        pdfFilename,
         displayName
       );
       console.log(`✅ PDF uploaded successfully!`);
       
       // Store the new element ID for future updates
-      if (result.id && jsonPath && documentData) {
+      if (result.id && jsonPath) {
         try {
           documentData.userData = documentData.userData || {};
           documentData.userData.pdfElementId = result.id;
@@ -117,7 +134,7 @@ export async function uploadPDF(options: UploadOptions) {
     }
     
     console.log(`   Element ID: ${result.id}`);
-    console.log(`   Name: ${result.name || filename}`);
+    console.log(`   Name: ${result.name || pdfFilename}`);
     
     if (result.href) {
       console.log(`   View: ${result.href}`);

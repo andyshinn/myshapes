@@ -108,7 +108,6 @@ export interface GenerateOptions {
 export interface UploadOptions {
   document: string;
   workspace?: string;
-  file: string;
   debug?: boolean;
 }
 

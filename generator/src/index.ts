@@ -63,10 +63,9 @@ program
 
 program
   .command('upload')
-  .description('Upload PDF to Onshape document')
+  .description('Upload PDF to Onshape document (infers PDF filename from document ID)')
   .requiredOption('-d, --document <id>', 'Onshape document ID')
   .option('-w, --workspace <id>', 'Workspace ID (optional, will use main workspace from synced data)')
-  .requiredOption('-f, --file <path>', 'PDF file path')
   .action((options, command) => {
     const globalOptions = command.parent?.opts() || {};
     uploadPDF({ ...options, debug: globalOptions.debug });

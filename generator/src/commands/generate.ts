@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { execSync } from 'child_process';
 import { fileURLToPath } from 'url';
+import { generateFilenameFromTitle } from '../utils/document-utils.js';
 
 // Get current file directory for proper path resolution
 const __filename = fileURLToPath(import.meta.url);
@@ -22,7 +23,7 @@ export async function generatePDF(options: GenerateOptions) {
 
     // Get document info first to determine filename
     const document = await client.getDocument(options.document);
-    const filename = document.name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+    const filename = generateFilenameFromTitle(document.name);
 
     // Set default output path if not provided
     if (!options.output) {
