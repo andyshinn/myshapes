@@ -1,0 +1,82 @@
+{
+  "documentId": "0e175e4d7392bc44e72da72c",
+  "title": "Heltec MeshSolar",
+  "description": "Model of the MeshSolar board and some major components. See https://heltec.org/project/meshsolar/ for more information on the board.",
+  "onshapeUrl": "https://cad.onshape.com/documents/0e175e4d7392bc44e72da72c",
+  "mainWorkspaceId": "0642c17a93eb8f56ec389d2c",
+  "createdAt": "2025-08-04T06:32:31.294Z",
+  "versions": [
+    {
+      "id": "b28e5a837f8b3f892a011972",
+      "name": "V1",
+      "description": "Initial version with some components. Missing nrf52840, JST, inductor, large capacitor, and DIP.",
+      "createdAt": "2025-08-05T01:41:50.716Z",
+      "microversion": "137e0d6e859ea8a62172da9d"
+    },
+    {
+      "id": "4e213885124d864ba4d908db",
+      "name": "V2",
+      "description": "Added radio M.2.",
+      "createdAt": "2025-08-05T06:20:00.877Z",
+      "microversion": "e5eb49fb1d0fb1684fe1eaee"
+    },
+    {
+      "id": "87cc794956426b4be9079b17",
+      "name": "V3",
+      "description": "Corner hole adjustments per feedback.",
+      "createdAt": "2025-08-05T22:01:37.806Z",
+      "microversion": "2cdff1a28823d6b6128fa5f7"
+    },
+    {
+      "id": "9457b591a581455525cc5fa9",
+      "name": "V4",
+      "description": "Additional cap, inductor, DIP, and PicoBlade connectors.",
+      "createdAt": "2025-08-07T18:00:20.612Z",
+      "microversion": "5d7c26cd9f5597424da5beae"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/0e175e4d7392bc44e72da72c/w/0642c17a93eb8f56ec389d2c/s/70x40?t=1754590894236",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/0e175e4d7392bc44e72da72c/w/0642c17a93eb8f56ec389d2c/s/300x170?t=1754590894236",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/0e175e4d7392bc44e72da72c/w/0642c17a93eb8f56ec389d2c/s/600x340?t=1754590894236",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/0e175e4d7392bc44e72da72c/w/0642c17a93eb8f56ec389d2c/s/300x300?t=1754590894236",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed",
+    "meshtastic"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "pdfElementId": "2de8b8b18a28c86b4d7bc762"
+  }
+}
