@@ -46,7 +46,6 @@ src/content/documents/[documentId].json
   "title": "string", 
   "description": "string",
   "createdAt": "date",
-  "updatedAt": "date",
   "versions": [...], // Should exclude "Start" versions
   "thumbnails": [...], // Various sizes from Onshape
   "labels": [...], // Auto + user labels

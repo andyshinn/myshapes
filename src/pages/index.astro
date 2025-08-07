@@ -11,7 +11,7 @@ const documents = await getCollection('documents');
 
 // Sort by most recently updated (default)
 const sortedDocuments = documents.sort((a, b) =>
-  new Date(b.data.updatedAt).getTime() - new Date(a.data.updatedAt).getTime()
+  new Date(b.data.createdAt).getTime() - new Date(a.data.createdAt).getTime()
 );
 
 // Get all unique labels (excluding 'indexed')
@@ -81,7 +81,6 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/*.png')
 							</svg>
 						</div>
 						<ul tabindex="0" class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
-							<li><a href="#" class="sort-option" data-sort="updatedAt">Updated Date</a></li>
 							<li><a href="#" class="sort-option" data-sort="createdAt">Created Date</a></li>
 							<li><a href="#" class="sort-option" data-sort="title">Title</a></li>
 							<li><a href="#" class="sort-option" data-sort="versions">Version Count</a></li>
@@ -128,7 +127,6 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/*.png')
 							class="card bg-base-100 shadow-sm document-card"
 							data-title={doc.data.title.toLowerCase()}
 							data-created={doc.data.createdAt}
-							data-updated={doc.data.updatedAt}
 							data-versions={doc.data.versions.length}
 							data-labels={doc.data.labels.filter(label => label !== 'indexed').join(',')}
 							data-search={searchText}
@@ -182,7 +180,6 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/*.png')
 								<!-- Stats -->
 								<div class="flex justify-between items-center mt-4 text-sm text-base-content/60">
 									<span>{doc.data.versions.length} version{doc.data.versions.length !== 1 ? 's' : ''}</span>
-									<span>Updated {new Date(doc.data.updatedAt).toLocaleDateString()}</span>
 								</div>
 							</div>
 						</div>
@@ -202,7 +199,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/*.png')
 
 			<script>
 				// State management
-				let currentSort = 'updatedAt';
+				let currentSort = 'createdAt'; // Default sort by created date
 				let isAscending = false;
 				let selectedLabels = new Set(); // Store multiple selected labels
 				let currentSearchText = '';
@@ -255,10 +252,6 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/images/*.png')
 							case 'createdAt':
 								aVal = new Date(a.dataset.created).getTime();
 								bVal = new Date(b.dataset.created).getTime();
-								break;
-							case 'updatedAt':
-								aVal = new Date(a.dataset.updated).getTime();
-								bVal = new Date(b.dataset.updated).getTime();
 								break;
 							case 'versions':
 								aVal = parseInt(a.dataset.versions) || 0;

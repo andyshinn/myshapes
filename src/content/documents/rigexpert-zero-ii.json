@@ -1,0 +1,59 @@
+{
+  "documentId": "396078f2fbcb377ac393be43",
+  "title": "RigExpert Zero II",
+  "description": "Model of the Zero II by RigExpert. See https://rigexpert.com/kits/zero-2/ for more information about the board.",
+  "onshapeUrl": "https://cad.onshape.com/documents/396078f2fbcb377ac393be43",
+  "mainWorkspaceId": "0b3865395e8761e4eacc0034",
+  "createdAt": "2025-07-25T23:10:25.844Z",
+  "versions": [
+    {
+      "id": "01b64d0f920ef439c5512ca0",
+      "name": "V1",
+      "description": "Initial model based on my own measurements.",
+      "createdAt": "2025-07-26T00:10:37.664Z",
+      "microversion": "f86c7b770240eb5f1b58aa55"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/396078f2fbcb377ac393be43/w/0b3865395e8761e4eacc0034/s/70x40?t=1753599645491",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/396078f2fbcb377ac393be43/w/0b3865395e8761e4eacc0034/s/300x300?t=1753599645491",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/396078f2fbcb377ac393be43/w/0b3865395e8761e4eacc0034/s/300x170?t=1753599645491",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/396078f2fbcb377ac393be43/w/0b3865395e8761e4eacc0034/s/600x340?t=1753599645491",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": []
+  }
+}

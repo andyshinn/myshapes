@@ -69,7 +69,6 @@ export interface DocumentMetadata {
   title: string;
   description: string;
   createdAt: Date;
-  updatedAt: Date;
   versions: DocumentVersion[];
   thumbnails: ThumbnailInfo[];
   changelog: ChangelogEntry[];

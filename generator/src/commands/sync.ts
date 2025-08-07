@@ -19,14 +19,14 @@ async function downloadThumbnail(url: string, outputPath: string, client: Onshap
 
     // Use the OnshapeClient's authenticated request method
     const response = await client.downloadThumbnail(url);
-    
+
     if (debug) {
       console.log('\n✅ DEBUG: Thumbnail Download Response');
       console.log(`Status: 200 OK (via OnshapeClient)`);
       console.log(`Content-Length: ${response.length} bytes`);
       console.log('');
     }
-    
+
     mkdirSync(dirname(outputPath), { recursive: true });
     writeFileSync(outputPath, response);
     console.log(`✅ Downloaded thumbnail: ${outputPath}`);
@@ -43,7 +43,7 @@ async function downloadThumbnail(url: string, outputPath: string, client: Onshap
 export async function syncDocuments(options: SyncOptions) {
   try {
     console.log(`Syncing document ${options.document}...`);
-    
+
     // Initialize Onshape client
     const client = new OnshapeClient(
       process.env.ONSHAPE_ACCESS_KEY!,
@@ -51,19 +51,19 @@ export async function syncDocuments(options: SyncOptions) {
       'https://cad.onshape.com',
       options.debug || false
     );
-    
+
     // Fetch document metadata
     console.log('Fetching document metadata...');
     const document = await client.getDocument(options.document);
     console.log(`Found document: ${document.name}`);
-    
+
     // Fetch main workspace
     console.log('Fetching workspaces...');
     let mainWorkspaceId: string | undefined;
     try {
       const workspaces = await client.getWorkspaces(options.document);
       // Find main workspace - it's typically named "Main" and has type "workspace"
-      const mainWorkspace = workspaces.find((w: any) => 
+      const mainWorkspace = workspaces.find((w: any) =>
         (w.name === "Main" || w.isMain) && w.type === "workspace"
       );
       if (mainWorkspace) {
@@ -75,7 +75,7 @@ export async function syncDocuments(options: SyncOptions) {
     } catch (error) {
       console.log('⚠️  Workspace fetching failed:', error instanceof Error ? error.message : 'Unknown error');
     }
-    
+
     // Fetch document versions (these endpoints may require different API permissions)
     console.log('Fetching document versions...');
     let versions: any[] = [];
@@ -96,13 +96,13 @@ export async function syncDocuments(options: SyncOptions) {
       console.log('Full error:', error);
     }
 
-    // Fetch document thumbnails (these endpoints may require different API permissions)  
+    // Fetch document thumbnails (these endpoints may require different API permissions)
     console.log('Fetching document thumbnails...');
     let thumbnails: any[] = [];
     try {
       thumbnails = await client.getDocumentThumbnails(options.document);
       console.log(`✅ Found ${thumbnails.length} thumbnail sizes`);
-      
+
       // Download the 600x340 thumbnail for use in PDF templates
       const largeThumbnail = thumbnails.find(t => t.size === '600x340');
       if (largeThumbnail) {
@@ -117,12 +117,12 @@ export async function syncDocuments(options: SyncOptions) {
       console.log('⚠️  Thumbnails processing failed:', error instanceof Error ? error.message : 'Unknown error');
       console.log('Full error:', error);
     }
-    
+
     // Determine output path and check for existing file
     const filename = document.name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
     const outputPath = resolve(options.outputDir, `${filename}.json`);
     mkdirSync(dirname(outputPath), { recursive: true });
-    
+
     // Load existing data if file exists to preserve user changes
     let existingData: any = {};
     if (existsSync(outputPath)) {
@@ -134,15 +134,15 @@ export async function syncDocuments(options: SyncOptions) {
         console.log('⚠️  Could not parse existing file, creating new one');
       }
     }
-    
+
     // Extract label names from API (simplified to strings)
     const apiLabelNames = document.documentLabels?.map((label: any) => label.name).filter(Boolean) || [];
-    
+
     // User labels from userData (if any) - convert objects to strings if needed
-    const userLabels = (existingData.userData?.labels || []).map((label: any) => 
+    const userLabels = (existingData.userData?.labels || []).map((label: any) =>
       typeof label === 'string' ? label : label.name || label
     ).filter(Boolean);
-    
+
     // Merge API labels with user labels (remove duplicates, user labels preserved)
     const allLabels = [...new Set([...apiLabelNames, ...userLabels])];
 
@@ -154,12 +154,11 @@ export async function syncDocuments(options: SyncOptions) {
       onshapeUrl: `https://cad.onshape.com/documents/${options.document}`,
       mainWorkspaceId,
       createdAt: new Date(document.createdAt),
-      updatedAt: new Date(document.modifiedAt),
       versions,
       thumbnails,
       labels: allLabels
     };
-    
+
     // User-editable fields under userData key (preserve existing values or use defaults)
     const userData = {
       workspaceId: existingData.userData?.workspaceId || existingData.workspaceId || undefined,
@@ -175,28 +174,28 @@ export async function syncDocuments(options: SyncOptions) {
       labels: userLabels,
       // Preserve any custom user fields from userData or root level (for migration)
       ...Object.fromEntries(
-        Object.entries(existingData.userData || {}).filter(([key]) => 
+        Object.entries(existingData.userData || {}).filter(([key]) =>
           !['workspaceId', 'elementId', 'pdfElementId', 'author', 'labels', 'description', 'changelog'].includes(key)
         )
       ),
       // Migrate any custom fields from root level to userData
       ...Object.fromEntries(
-        Object.entries(existingData).filter(([key]) => 
-          !['documentId', 'title', 'description', 'createdAt', 'updatedAt', 'versions', 'thumbnails', 'labels', 'workspaceId', 'elementId', 'changelog', 'author', 'userData'].includes(key)
+        Object.entries(existingData).filter(([key]) =>
+          !['documentId', 'title', 'description', 'createdAt', 'versions', 'thumbnails', 'labels', 'workspaceId', 'elementId', 'changelog', 'author', 'userData'].includes(key)
         )
       )
     };
-    
+
     // Merge API data with user-editable data
     const documentData = {
       ...apiData,
       userData
     };
-    
+
     writeFileSync(outputPath, JSON.stringify(documentData, null, 2));
-    
+
     console.log(`✅ Document synced to: ${outputPath}`);
-    
+
   } catch (error) {
     console.error('❌ Error syncing document:', error instanceof Error ? error.message : 'Unknown error');
     process.exit(1);

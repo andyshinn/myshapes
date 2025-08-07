@@ -48,7 +48,7 @@ import FormData from 'form-data';
 
 export class OnshapeClient {
   private api: AxiosInstance;
-  
+
   constructor(
     private accessKey: string,
     private secretKey: string,
@@ -58,68 +58,68 @@ export class OnshapeClient {
       baseURL: `${baseUrl}/api`,
       timeout: 30000
     });
-    
+
     this.api.interceptors.request.use(config => {
       // Add request signature authentication
       const { headers, method, url } = config;
       const date = new Date().toUTCString();
       const nonce = crypto.randomBytes(16).toString('hex');
-      
+
       const signature = this.createSignature(
         method!, url!, date, nonce
       );
-      
+
       headers['Date'] = date;
       headers['On-Nonce'] = nonce;
       headers['Authorization'] = signature;
-      
+
       return config;
     });
   }
-  
+
   private createSignature(
-    method: string, 
-    path: string, 
-    date: string, 
+    method: string,
+    path: string,
+    date: string,
     nonce: string
   ): string {
     const toSign = [method, nonce, date, 'application/json', path]
       .join('\n');
-    
+
     const hmac = crypto.createHmac('sha256', this.secretKey);
     hmac.update(toSign);
     const signature = hmac.digest('base64');
-    
+
     return `On ${this.accessKey}:HmacSHA256:${signature}`;
   }
-  
+
   async getDocument(documentId: string) {
     const response = await this.api.get(`/v10/documents/${documentId}`);
     return response.data;
   }
-  
+
   async getThumbnails(documentId: string, elementId: string) {
     // First get available sizes
     const sizes = await this.api.get(
       `/thumbnails/d/${documentId}/e/${elementId}`
     );
-    
+
     // Then fetch specific sizes
     const thumbnails = await Promise.all(
-      sizes.data.sizes.map(size => 
+      sizes.data.sizes.map(size =>
         this.api.get(
           `/thumbnails/d/${documentId}/e/${elementId}?sz=${size}`,
           { responseType: 'arraybuffer' }
         )
       )
     );
-    
+
     return thumbnails;
   }
-  
+
   async uploadPDF(
-    documentId: string, 
-    workspaceId: string, 
+    documentId: string,
+    workspaceId: string,
     pdfBuffer: Buffer,
     filename: string
   ) {
@@ -127,7 +127,7 @@ export class OnshapeClient {
     form.append('file', pdfBuffer, filename);
     form.append('storeInDocument', 'true');
     form.append('translate', 'false');
-    
+
     const response = await this.api.post(
       `/blobelements/d/${documentId}/w/${workspaceId}`,
       form,
@@ -138,7 +138,7 @@ export class OnshapeClient {
         }
       }
     );
-    
+
     return response.data;
   }
 }
@@ -159,20 +159,19 @@ const documentsCollection = defineCollection({
     onshapeId: z.string(),
     workspaceId: z.string(),
     elementId: z.string(),
-    
+
     // Display metadata
     title: z.string(),
     description: z.string(),
     createdAt: z.coerce.date(),
-    updatedAt: z.coerce.date(),
-    
+
     // Multiple thumbnails
     thumbnails: z.object({
       small: z.string(), // URLs from Onshape
       medium: z.string(),
       large: z.string()
     }),
-    
+
     // User-created changelog
     changelog: z.array(z.object({
       version: z.string(),
@@ -180,7 +179,7 @@ const documentsCollection = defineCollection({
       changes: z.array(z.string()),
       author: z.string()
     })).default([]),
-    
+
     // 3D printing info (user-provided)
     printingInfo: z.object({
       printTime: z.number().optional(),
@@ -190,7 +189,7 @@ const documentsCollection = defineCollection({
       supportRequired: z.boolean().default(false),
       materials: z.array(z.string()).default([])
     }).optional(),
-    
+
     // Personal information
     author: z.object({
       name: z.string(),
@@ -215,11 +214,11 @@ import { defineConfig } from 'astro/config';
 export default defineConfig({
   site: 'https://yourusername.github.io',
   base: '/your-repo-name',
-  
+
   vite: {
     envPrefix: 'PUBLIC_',
   },
-  
+
   env: {
     schema: {
       ONSHAPE_ACCESS_KEY: envField.string({
@@ -298,17 +297,17 @@ interface GenerateOptions {
 export async function generatePDF(options: GenerateOptions) {
   try {
     console.log(`Generating PDF for document ${options.document}...`);
-    
+
     // Initialize Onshape client
     const client = new OnshapeClient(
       process.env.ONSHAPE_ACCESS_KEY!,
       process.env.ONSHAPE_SECRET_KEY!
     );
-    
+
     // Fetch document metadata
     const document = await client.getDocument(options.document);
     console.log(`Found document: ${document.name}`);
-    
+
     // Prepare template data
     const templateData = {
       title: document.name,
@@ -321,11 +320,11 @@ export async function generatePDF(options: GenerateOptions) {
         website: process.env.AUTHOR_WEBSITE || ''
       }
     };
-    
+
     // Read template file
     const templatePath = resolve(`./templates/${options.template}.typ`);
     const template = readFileSync(templatePath, 'utf-8');
-    
+
     // Generate PDF
     const pdfBuffer = await typst.compile(template, {
       sys_inputs: {
@@ -333,11 +332,11 @@ export async function generatePDF(options: GenerateOptions) {
       },
       format: 'pdf'
     });
-    
+
     // Save to file
     writeFileSync(options.output, pdfBuffer);
     console.log(`✅ PDF generated successfully: ${options.output}`);
-    
+
   } catch (error) {
     console.error('❌ Error generating PDF:', error.message);
     process.exit(1);
@@ -361,17 +360,17 @@ interface UploadOptions {
 export async function uploadPDF(options: UploadOptions) {
   try {
     console.log(`Uploading ${options.file} to document ${options.document}...`);
-    
+
     // Initialize Onshape client
     const client = new OnshapeClient(
       process.env.ONSHAPE_ACCESS_KEY!,
       process.env.ONSHAPE_SECRET_KEY!
     );
-    
+
     // Read PDF file
     const pdfBuffer = readFileSync(options.file);
     const filename = options.file.split('/').pop() || 'document.pdf';
-    
+
     // Upload to Onshape
     const result = await client.uploadPDF(
       options.document,
@@ -379,9 +378,9 @@ export async function uploadPDF(options: UploadOptions) {
       pdfBuffer,
       filename
     );
-    
+
     console.log(`✅ PDF uploaded successfully with element ID: ${result.id}`);
-    
+
   } catch (error) {
     console.error('❌ Error uploading PDF:', error.message);
     process.exit(1);
@@ -405,21 +404,21 @@ interface SyncOptions {
 export async function syncDocuments(options: SyncOptions) {
   try {
     console.log(`Syncing document ${options.document}...`);
-    
+
     // Initialize Onshape client
     const client = new OnshapeClient(
       process.env.ONSHAPE_ACCESS_KEY!,
       process.env.ONSHAPE_SECRET_KEY!
     );
-    
+
     // Fetch document metadata
     const document = await client.getDocument(options.document);
-    
+
     // Get thumbnails for the first part studio
     const workspaces = await client.getWorkspaces(options.document);
     const elements = await client.getElements(options.document, workspaces[0].id);
     const partStudio = elements.find(e => e.type === 'PARTSTUDIO');
-    
+
     let thumbnails = { small: '', medium: '', large: '' };
     if (partStudio) {
       const thumbs = await client.getThumbnails(options.document, partStudio.id);
@@ -429,7 +428,7 @@ export async function syncDocuments(options: SyncOptions) {
         large: thumbs.large || ''
       };
     }
-    
+
     // Create content collection entry
     const documentData = {
       onshapeId: options.document,
@@ -438,7 +437,6 @@ export async function syncDocuments(options: SyncOptions) {
       title: document.name,
       description: document.description || '',
       createdAt: new Date(document.createdAt),
-      updatedAt: new Date(document.modifiedAt),
       thumbnails,
       changelog: [],
       author: {
@@ -447,14 +445,14 @@ export async function syncDocuments(options: SyncOptions) {
         website: process.env.AUTHOR_WEBSITE || ''
       }
     };
-    
+
     // Write to content directory
     const outputPath = resolve(options.outputDir, `${document.name.toLowerCase().replace(/\s+/g, '-')}.json`);
     mkdirSync(dirname(outputPath), { recursive: true });
     writeFileSync(outputPath, JSON.stringify(documentData, null, 2));
-    
+
     console.log(`✅ Document synced to: ${outputPath}`);
-    
+
   } catch (error) {
     console.error('❌ Error syncing document:', error.message);
     process.exit(1);
@@ -531,7 +529,7 @@ import '../dist/index.js';
 
 #align(bottom)[
   Generated on #datetime.today().display()
-  
+
   #if data.author.name != "" [
     Prepared by: #data.author.name
   ]
@@ -608,7 +606,7 @@ import '../dist/index.js';
 
 2. **Implement commands**
    - Generate command
-   - Upload command  
+   - Upload command
    - Sync command
 
 3. **Create Typst templates**

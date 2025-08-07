@@ -5,7 +5,6 @@
   "onshapeUrl": "https://cad.onshape.com/documents/b0315822522f8e9e1f8155b6",
   "mainWorkspaceId": "e6dca1c59f7eade81115327e",
   "createdAt": "2023-09-06T22:29:18.478Z",
-  "updatedAt": "2023-09-18T17:25:00.076Z",
   "versions": [],
   "thumbnails": [
     {
@@ -42,12 +41,14 @@
     "indexed"
   ],
   "userData": {
+    "pdfElementId": "e128e02310ee2a16a73b9552",
     "author": {
       "name": "Andy Shinn",
       "email": "andys@andyshinn.as",
       "website": "andyshinn.as"
     },
     "labels": [],
-    "pdfElementId": "e128e02310ee2a16a73b9552"
+    "onshapeUrl": "https://cad.onshape.com/documents/b0315822522f8e9e1f8155b6",
+    "mainWorkspaceId": "e6dca1c59f7eade81115327e"
   }
 }

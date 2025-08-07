@@ -8,8 +8,7 @@ const documentsCollection = defineCollection({
     title: z.string(),
     description: z.string().default(''),
     createdAt: z.coerce.date(),
-    updatedAt: z.coerce.date(),
-    
+
     // Document versions from Onshape API (use these instead of changelog)
     versions: z.array(z.object({
       id: z.string(),
@@ -18,7 +17,7 @@ const documentsCollection = defineCollection({
       createdAt: z.coerce.date(),
       microversion: z.string()
     })).default([]),
-    
+
     // Thumbnails from Onshape API
     thumbnails: z.array(z.object({
       size: z.string(),
@@ -27,19 +26,19 @@ const documentsCollection = defineCollection({
       height: z.number().optional(),
       mediaType: z.string().optional()
     })).default([]),
-    
+
     // Labels from Onshape API merged with user labels (simplified to strings)
     labels: z.array(z.string()).default([]),
-    
+
     // User-editable data (preserved during sync)
     userData: z.object({
       // Onshape metadata
       workspaceId: z.string().optional(),
       elementId: z.string().optional(),
-      
+
       // User-only labels (these get merged with API labels)
       labels: z.array(z.string()).default([]),
-      
+
       // 3D printing info (user-provided)
       printingInfo: z.object({
         printTime: z.number().optional(),
@@ -49,7 +48,7 @@ const documentsCollection = defineCollection({
         supportRequired: z.boolean().default(false),
         materials: z.array(z.string()).default([])
       }).optional(),
-      
+
       // Personal information
       author: z.object({
         name: z.string(),

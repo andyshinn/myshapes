@@ -32,6 +32,7 @@
 #set document(
   title: data.title,
   author: data.userData.author.name,
+  date: none,
 )
 
 // Technical blue color scheme
@@ -175,5 +176,5 @@
 // Optional footer (currently disabled)
 #place(bottom + center, dy: -0.25in, [
   #set text(size: 8pt, fill: grid-gray)
-  Generated on #datetime.today().display("[month repr:short] [day], [year]") • #link("https://github.com/andyshinn/myshapes")[github.com/andyshinn/myshapes] • #data.documentId
+  #link("https://github.com/andyshinn/myshapes")[github.com/andyshinn/myshapes] • #data.documentId
 ])

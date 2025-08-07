@@ -5,7 +5,6 @@
   "onshapeUrl": "https://cad.onshape.com/documents/23c9eb99ac3aa6248fb7643c",
   "mainWorkspaceId": "7e893527ea7fa05bcc68fc8a",
   "createdAt": "2025-02-02T20:07:23.253Z",
-  "updatedAt": "2025-02-03T18:53:25.529Z",
   "versions": [
     {
       "id": "29a2e1936fe78429b3b8d92c",
@@ -58,6 +57,7 @@
     "meshtastic"
   ],
   "userData": {
+    "pdfElementId": "affb4d59064592454b703f84",
     "author": {
       "name": "Andy Shinn",
       "email": "andys@andyshinn.as",
@@ -65,7 +65,6 @@
     },
     "labels": [],
     "onshapeUrl": "https://cad.onshape.com/documents/23c9eb99ac3aa6248fb7643c",
-    "mainWorkspaceId": "7e893527ea7fa05bcc68fc8a",
-    "pdfElementId": "affb4d59064592454b703f84"
+    "mainWorkspaceId": "7e893527ea7fa05bcc68fc8a"
   }
 }
