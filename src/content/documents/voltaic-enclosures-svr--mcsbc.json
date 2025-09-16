@@ -26,33 +26,40 @@
       "description": "",
       "createdAt": "2025-06-08T21:24:07.175Z",
       "microversion": "7dfe7e4a0a6d00fdc4e6f826"
+    },
+    {
+      "id": "1a14c33f14aaf92213b8496b",
+      "name": "V4",
+      "description": "Added a simple mounting bracket.",
+      "createdAt": "2025-09-15T03:40:00.407Z",
+      "microversion": "e157d8ddf00a124760435735"
     }
   ],
   "thumbnails": [
     {
       "size": "600x340",
-      "url": "https://cad.onshape.com/api/thumbnails/d/78a91e01ab367e357347b1a3/w/12ff1cbdafd479ef4e5d08c9/s/600x340?t=1749337045847",
+      "url": "https://cad.onshape.com/api/thumbnails/d/78a91e01ab367e357347b1a3/w/12ff1cbdafd479ef4e5d08c9/s/600x340?t=1757893286027",
       "width": 600,
       "height": 340,
       "mediaType": "image/png"
     },
     {
       "size": "70x40",
-      "url": "https://cad.onshape.com/api/thumbnails/d/78a91e01ab367e357347b1a3/w/12ff1cbdafd479ef4e5d08c9/s/70x40?t=1749337045847",
+      "url": "https://cad.onshape.com/api/thumbnails/d/78a91e01ab367e357347b1a3/w/12ff1cbdafd479ef4e5d08c9/s/70x40?t=1757893286027",
       "width": 70,
       "height": 40,
       "mediaType": "image/png"
     },
     {
       "size": "300x300",
-      "url": "https://cad.onshape.com/api/thumbnails/d/78a91e01ab367e357347b1a3/w/12ff1cbdafd479ef4e5d08c9/s/300x300?t=1749337045847",
+      "url": "https://cad.onshape.com/api/thumbnails/d/78a91e01ab367e357347b1a3/w/12ff1cbdafd479ef4e5d08c9/s/300x300?t=1757893286027",
       "width": 300,
       "height": 300,
       "mediaType": "image/png"
     },
     {
       "size": "300x170",
-      "url": "https://cad.onshape.com/api/thumbnails/d/78a91e01ab367e357347b1a3/w/12ff1cbdafd479ef4e5d08c9/s/300x170?t=1749337045847",
+      "url": "https://cad.onshape.com/api/thumbnails/d/78a91e01ab367e357347b1a3/w/12ff1cbdafd479ef4e5d08c9/s/300x170?t=1757893286027",
       "width": 300,
       "height": 170,
       "mediaType": "image/png"

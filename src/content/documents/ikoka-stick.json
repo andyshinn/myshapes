@@ -89,35 +89,42 @@
       "description": "",
       "createdAt": "2025-07-23T05:52:18.806Z",
       "microversion": "a96f1a7d5f313b3f00585a3a"
+    },
+    {
+      "id": "06021335ac5d3fa8232a3629",
+      "name": "V13",
+      "description": "Added silkscreen decals for both colors.",
+      "createdAt": "2025-09-14T00:56:33.563Z",
+      "microversion": "d8bf38da5b0fbf4a9f20e7a2"
     }
   ],
   "thumbnails": [
     {
-      "size": "300x300",
-      "url": "https://cad.onshape.com/api/thumbnails/d/ac732860c2834480eda78004/w/6c9003fecef8965f0ac16390/s/300x300?t=1753289061117",
-      "width": 300,
-      "height": 300,
-      "mediaType": "image/png"
-    },
-    {
       "size": "300x170",
-      "url": "https://cad.onshape.com/api/thumbnails/d/ac732860c2834480eda78004/w/6c9003fecef8965f0ac16390/s/300x170?t=1753289061117",
+      "url": "https://cad.onshape.com/api/thumbnails/d/ac732860c2834480eda78004/w/6c9003fecef8965f0ac16390/s/300x170?t=1757811399766",
       "width": 300,
       "height": 170,
       "mediaType": "image/png"
     },
     {
       "size": "600x340",
-      "url": "https://cad.onshape.com/api/thumbnails/d/ac732860c2834480eda78004/w/6c9003fecef8965f0ac16390/s/600x340?t=1753289061117",
+      "url": "https://cad.onshape.com/api/thumbnails/d/ac732860c2834480eda78004/w/6c9003fecef8965f0ac16390/s/600x340?t=1757811399766",
       "width": 600,
       "height": 340,
       "mediaType": "image/png"
     },
     {
       "size": "70x40",
-      "url": "https://cad.onshape.com/api/thumbnails/d/ac732860c2834480eda78004/w/6c9003fecef8965f0ac16390/s/70x40?t=1753289061117",
+      "url": "https://cad.onshape.com/api/thumbnails/d/ac732860c2834480eda78004/w/6c9003fecef8965f0ac16390/s/70x40?t=1757811399766",
       "width": 70,
       "height": 40,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/ac732860c2834480eda78004/w/6c9003fecef8965f0ac16390/s/300x300?t=1757811399766",
+      "width": 300,
+      "height": 300,
       "mediaType": "image/png"
     }
   ],
@@ -126,7 +133,6 @@
     "meshtastic"
   ],
   "userData": {
-    "pdfElementId": "2e39813c0c94edb8e4ed582c",
     "author": {
       "name": "Andy Shinn",
       "email": "andys@andyshinn.as",
@@ -134,6 +140,7 @@
     },
     "labels": [],
     "onshapeUrl": "https://cad.onshape.com/documents/ac732860c2834480eda78004",
-    "mainWorkspaceId": "6c9003fecef8965f0ac16390"
+    "mainWorkspaceId": "6c9003fecef8965f0ac16390",
+    "pdfElementId": "1ce12f48549f7316988d0bd9"
   }
 }

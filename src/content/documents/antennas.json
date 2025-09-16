@@ -33,35 +33,42 @@
       "description": "",
       "createdAt": "2025-04-14T22:00:02.557Z",
       "microversion": "eb8fc46c30b1b8edcc30481f"
+    },
+    {
+      "id": "02c254fd4b9b59f635a19475",
+      "name": "V5",
+      "description": "RAK 5dBi and N connector for Alfa.",
+      "createdAt": "2025-09-16T18:43:53.644Z",
+      "microversion": "2aba9c28815112729141b86d"
     }
   ],
   "thumbnails": [
     {
       "size": "70x40",
-      "url": "https://cad.onshape.com/api/thumbnails/d/a4f8f9a5d15041a9b6bf901e/w/c139d79960ccd33b3c272874/s/70x40?t=1744409459058",
+      "url": "https://cad.onshape.com/api/thumbnails/d/a4f8f9a5d15041a9b6bf901e/w/c139d79960ccd33b3c272874/s/70x40?t=1758048277896",
       "width": 70,
       "height": 40,
       "mediaType": "image/png"
     },
     {
-      "size": "300x170",
-      "url": "https://cad.onshape.com/api/thumbnails/d/a4f8f9a5d15041a9b6bf901e/w/c139d79960ccd33b3c272874/s/300x170?t=1744409459058",
-      "width": 300,
-      "height": 170,
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/a4f8f9a5d15041a9b6bf901e/w/c139d79960ccd33b3c272874/s/600x340?t=1758048277896",
+      "width": 600,
+      "height": 340,
       "mediaType": "image/png"
     },
     {
       "size": "300x300",
-      "url": "https://cad.onshape.com/api/thumbnails/d/a4f8f9a5d15041a9b6bf901e/w/c139d79960ccd33b3c272874/s/300x300?t=1744409459058",
+      "url": "https://cad.onshape.com/api/thumbnails/d/a4f8f9a5d15041a9b6bf901e/w/c139d79960ccd33b3c272874/s/300x300?t=1758048277896",
       "width": 300,
       "height": 300,
       "mediaType": "image/png"
     },
     {
-      "size": "600x340",
-      "url": "https://cad.onshape.com/api/thumbnails/d/a4f8f9a5d15041a9b6bf901e/w/c139d79960ccd33b3c272874/s/600x340?t=1744409459058",
-      "width": 600,
-      "height": 340,
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/a4f8f9a5d15041a9b6bf901e/w/c139d79960ccd33b3c272874/s/300x170?t=1758048277896",
+      "width": 300,
+      "height": 170,
       "mediaType": "image/png"
     }
   ],

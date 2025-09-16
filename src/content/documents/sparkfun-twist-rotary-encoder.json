@@ -1,0 +1,61 @@
+{
+  "documentId": "16301f0b8879afbe74432c12",
+  "title": "Sparkfun Twist Rotary Encoder",
+  "description": "The Sparkfun Twist is a I2C rotary encoder with RGB LED and button. See more at https://www.sparkfun.com/sparkfun-qwiic-twist-rgb-rotary-encoder-breakout.html.",
+  "onshapeUrl": "https://cad.onshape.com/documents/16301f0b8879afbe74432c12",
+  "mainWorkspaceId": "29b29d01bf0753f22aab1f36",
+  "createdAt": "2025-08-27T18:11:23.271Z",
+  "versions": [
+    {
+      "id": "081a691304b77241a27a1d92",
+      "name": "V1",
+      "description": "Initial Sparkfun Twist QWIIC Rotary Encoder.",
+      "createdAt": "2025-08-28T00:56:12.847Z",
+      "microversion": "83a31fc9c41f8db27666a675"
+    }
+  ],
+  "thumbnails": [
+    {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/16301f0b8879afbe74432c12/w/29b29d01bf0753f22aab1f36/s/300x300?t=1756342585239",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "600x340",
+      "url": "https://cad.onshape.com/api/thumbnails/d/16301f0b8879afbe74432c12/w/29b29d01bf0753f22aab1f36/s/600x340?t=1756342585239",
+      "width": 600,
+      "height": 340,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "300x170",
+      "url": "https://cad.onshape.com/api/thumbnails/d/16301f0b8879afbe74432c12/w/29b29d01bf0753f22aab1f36/s/300x170?t=1756342585239",
+      "width": 300,
+      "height": 170,
+      "mediaType": "image/png"
+    },
+    {
+      "size": "70x40",
+      "url": "https://cad.onshape.com/api/thumbnails/d/16301f0b8879afbe74432c12/w/29b29d01bf0753f22aab1f36/s/70x40?t=1756342585239",
+      "width": 70,
+      "height": 40,
+      "mediaType": "image/png"
+    }
+  ],
+  "labels": [
+    "external",
+    "indexed",
+    "sparkfun"
+  ],
+  "userData": {
+    "author": {
+      "name": "Andy Shinn",
+      "email": "andys@andyshinn.as",
+      "website": "andyshinn.as"
+    },
+    "labels": [],
+    "pdfElementId": "125c2818c32fa58f85d83315"
+  }
+}

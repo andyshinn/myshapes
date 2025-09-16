@@ -38,30 +38,30 @@
   "thumbnails": [
     {
       "size": "70x40",
-      "url": "https://cad.onshape.com/api/thumbnails/d/0e175e4d7392bc44e72da72c/w/0642c17a93eb8f56ec389d2c/s/70x40?t=1754590894236",
+      "url": "https://cad.onshape.com/api/thumbnails/d/0e175e4d7392bc44e72da72c/w/0642c17a93eb8f56ec389d2c/s/70x40?t=1757697968932",
       "width": 70,
       "height": 40,
       "mediaType": "image/png"
     },
     {
+      "size": "300x300",
+      "url": "https://cad.onshape.com/api/thumbnails/d/0e175e4d7392bc44e72da72c/w/0642c17a93eb8f56ec389d2c/s/300x300?t=1757697968932",
+      "width": 300,
+      "height": 300,
+      "mediaType": "image/png"
+    },
+    {
       "size": "300x170",
-      "url": "https://cad.onshape.com/api/thumbnails/d/0e175e4d7392bc44e72da72c/w/0642c17a93eb8f56ec389d2c/s/300x170?t=1754590894236",
+      "url": "https://cad.onshape.com/api/thumbnails/d/0e175e4d7392bc44e72da72c/w/0642c17a93eb8f56ec389d2c/s/300x170?t=1757697968932",
       "width": 300,
       "height": 170,
       "mediaType": "image/png"
     },
     {
       "size": "600x340",
-      "url": "https://cad.onshape.com/api/thumbnails/d/0e175e4d7392bc44e72da72c/w/0642c17a93eb8f56ec389d2c/s/600x340?t=1754590894236",
+      "url": "https://cad.onshape.com/api/thumbnails/d/0e175e4d7392bc44e72da72c/w/0642c17a93eb8f56ec389d2c/s/600x340?t=1757697968932",
       "width": 600,
       "height": 340,
-      "mediaType": "image/png"
-    },
-    {
-      "size": "300x300",
-      "url": "https://cad.onshape.com/api/thumbnails/d/0e175e4d7392bc44e72da72c/w/0642c17a93eb8f56ec389d2c/s/300x300?t=1754590894236",
-      "width": 300,
-      "height": 300,
       "mediaType": "image/png"
     }
   ],
@@ -71,12 +71,14 @@
     "meshtastic"
   ],
   "userData": {
+    "pdfElementId": "2de8b8b18a28c86b4d7bc762",
     "author": {
       "name": "Andy Shinn",
       "email": "andys@andyshinn.as",
       "website": "andyshinn.as"
     },
     "labels": [],
-    "pdfElementId": "2de8b8b18a28c86b4d7bc762"
+    "onshapeUrl": "https://cad.onshape.com/documents/0e175e4d7392bc44e72da72c",
+    "mainWorkspaceId": "0642c17a93eb8f56ec389d2c"
   }
 }
